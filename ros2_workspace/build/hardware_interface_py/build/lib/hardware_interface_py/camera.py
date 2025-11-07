@@ -10,9 +10,13 @@ class CameraNode(Node):
         self.publisher_ = self.create_publisher(Image, 'camera/image', 10)
         self.declare_parameter('cam_index', 0)
         self.declare_parameter('cam_period', 0.1)
+        self.declare_parameter('resolution', (1920, 1080))
         cam_index = self.get_parameter('cam_index').get_parameter_value().integer_value
         cam_period = self.get_parameter('cam_period').get_parameter_value().double_value
-        self.cap = cv2.VideoCapture(cam_index, cv2.CAP_V4L2)
+        resolution = self.get_parameter('resolution').get_parameter_value().integer_array_value
+        self.cap = cv2.VideoCapture(cam_index)
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, resolution[0])
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, resolution[1])
         self.bridge = CvBridge()
         self.timer = self.create_timer(cam_period, self.timer_callback)
 

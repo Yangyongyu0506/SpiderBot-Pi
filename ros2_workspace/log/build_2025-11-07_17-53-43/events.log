@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.001611] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict()}
+[0.002179] (hardware_interface_py) JobQueued: {'identifier': 'hardware_interface_py', 'dependencies': OrderedDict()}
+[0.002680] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.049331] (hardware_interface_py) JobStarted: {'identifier': 'hardware_interface_py'}
+[0.084790] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.089711] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'build'}
+[0.092648] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', '--', '-j4', '-l4'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 56652 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-21448c0c-56f2-498a-882f-9b761366ab9b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ee662827d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 56652 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble')]), 'shell': False}
+[0.101401] (-) TimerEvent: {}
+[0.206131] (-) TimerEvent: {}
+[0.307266] (-) TimerEvent: {}
+[0.408272] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[0.409099] (-) TimerEvent: {}
+[0.510662] (-) TimerEvent: {}
+[0.543795] (hardware_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.610874] (-) TimerEvent: {}
+[0.716360] (-) TimerEvent: {}
+[0.817107] (-) TimerEvent: {}
+[0.917884] (-) TimerEvent: {}
+[1.018563] (-) TimerEvent: {}
+[1.119330] (-) TimerEvent: {}
+[1.220222] (-) TimerEvent: {}
+[1.321628] (-) TimerEvent: {}
+[1.422398] (-) TimerEvent: {}
+[1.523361] (-) TimerEvent: {}
+[1.624779] (-) TimerEvent: {}
+[1.725910] (-) TimerEvent: {}
+[1.826894] (-) TimerEvent: {}
+[1.927671] (-) TimerEvent: {}
+[2.028396] (-) TimerEvent: {}
+[2.129215] (-) TimerEvent: {}
+[2.230125] (-) TimerEvent: {}
+[2.331000] (-) TimerEvent: {}
+[2.432005] (-) TimerEvent: {}
+[2.532795] (-) TimerEvent: {}
+[2.633579] (-) TimerEvent: {}
+[2.734436] (-) TimerEvent: {}
+[2.835231] (-) TimerEvent: {}
+[2.936389] (-) TimerEvent: {}
+[3.037207] (-) TimerEvent: {}
+[3.138251] (-) TimerEvent: {}
+[3.239109] (-) TimerEvent: {}
+[3.340283] (-) TimerEvent: {}
+[3.415379] (hardware_interface_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hardware_interface_py', 'build', '--build-base', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build', 'install', '--record', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 56652 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-21448c0c-56f2-498a-882f-9b761366ab9b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1ee662827d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'SSH_CONNECTION': '100.69.168.86 56652 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface'}, 'shell': False}
+[3.440574] (-) TimerEvent: {}
+[3.542860] (-) TimerEvent: {}
+[3.644747] (-) TimerEvent: {}
+[3.746741] (-) TimerEvent: {}
+[3.848526] (-) TimerEvent: {}
+[3.949472] (-) TimerEvent: {}
+[4.055755] (-) TimerEvent: {}
+[4.156544] (-) TimerEvent: {}
+[4.257367] (-) TimerEvent: {}
+[4.358197] (-) TimerEvent: {}
+[4.459345] (-) TimerEvent: {}
+[4.560591] (-) TimerEvent: {}
+[4.661492] (-) TimerEvent: {}
+[4.762418] (-) TimerEvent: {}
+[4.863299] (-) TimerEvent: {}
+[4.964209] (-) TimerEvent: {}
+[5.003478] (hardware_interface_py) StdoutLine: {'line': b'running egg_info\n'}
+[5.007700] (hardware_interface_py) StdoutLine: {'line': b'writing ../../build/hardware_interface_py/hardware_interface_py.egg-info/PKG-INFO\n'}
+[5.009562] (hardware_interface_py) StdoutLine: {'line': b'writing dependency_links to ../../build/hardware_interface_py/hardware_interface_py.egg-info/dependency_links.txt\n'}
+[5.010418] (hardware_interface_py) StdoutLine: {'line': b'writing entry points to ../../build/hardware_interface_py/hardware_interface_py.egg-info/entry_points.txt\n'}
+[5.012583] (hardware_interface_py) StdoutLine: {'line': b'writing requirements to ../../build/hardware_interface_py/hardware_interface_py.egg-info/requires.txt\n'}
+[5.013304] (hardware_interface_py) StdoutLine: {'line': b'writing top-level names to ../../build/hardware_interface_py/hardware_interface_py.egg-info/top_level.txt\n'}
+[5.021154] (hardware_interface_py) StdoutLine: {'line': b"reading manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[5.026565] (hardware_interface_py) StdoutLine: {'line': b"writing manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[5.028074] (hardware_interface_py) StdoutLine: {'line': b'running build\n'}
+[5.028738] (hardware_interface_py) StdoutLine: {'line': b'running build_py\n'}
+[5.030153] (hardware_interface_py) StdoutLine: {'line': b'running install\n'}
+[5.031636] (hardware_interface_py) StdoutLine: {'line': b'running install_lib\n'}
+[5.038300] (hardware_interface_py) StdoutLine: {'line': b'running install_data\n'}
+[5.039719] (hardware_interface_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.047798] (hardware_interface_py) StdoutLine: {'line': b"removing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.050100] (hardware_interface_py) StdoutLine: {'line': b'Copying ../../build/hardware_interface_py/hardware_interface_py.egg-info to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py-0.0.0-py3.10.egg-info\n'}
+[5.064933] (-) TimerEvent: {}
+[5.065819] (hardware_interface_py) StdoutLine: {'line': b'running install_scripts\n'}
+[5.159523] (hardware_interface_py) StdoutLine: {'line': b'Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[5.161535] (hardware_interface_py) StdoutLine: {'line': b"writing list of installed files to '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log'\n"}
+[5.165324] (-) TimerEvent: {}
+[5.267036] (-) TimerEvent: {}
+[5.297286] (hardware_interface_py) CommandEnded: {'returncode': 0}
+[5.367524] (-) TimerEvent: {}
+[5.383864] (hardware_interface_py) JobEnded: {'identifier': 'hardware_interface_py', 'rc': 0}
+[5.468144] (-) TimerEvent: {}
+[5.568994] (-) TimerEvent: {}
+[5.669791] (-) TimerEvent: {}
+[5.770750] (-) TimerEvent: {}
+[5.871539] (-) TimerEvent: {}
+[5.972384] (-) TimerEvent: {}
+[6.073180] (-) TimerEvent: {}
+[6.173962] (-) TimerEvent: {}
+[6.274823] (-) TimerEvent: {}
+[6.375741] (-) TimerEvent: {}
+[6.476522] (-) TimerEvent: {}
+[6.577354] (-) TimerEvent: {}
+[6.678263] (-) TimerEvent: {}
+[6.779196] (-) TimerEvent: {}
+[6.880105] (-) TimerEvent: {}
+[6.980879] (-) TimerEvent: {}
+[7.081723] (-) TimerEvent: {}
+[7.182641] (-) TimerEvent: {}
+[7.283667] (-) TimerEvent: {}
+[7.384693] (-) TimerEvent: {}
+[7.485521] (-) TimerEvent: {}
+[7.586310] (-) TimerEvent: {}
+[7.687290] (-) TimerEvent: {}
+[7.788131] (-) TimerEvent: {}
+[7.889142] (-) TimerEvent: {}
+[7.989934] (-) TimerEvent: {}
+[8.090733] (-) TimerEvent: {}
+[8.191624] (-) TimerEvent: {}
+[8.292438] (-) TimerEvent: {}
+[8.393305] (-) TimerEvent: {}
+[8.494124] (-) TimerEvent: {}
+[8.595006] (-) TimerEvent: {}
+[8.695896] (-) TimerEvent: {}
+[8.796777] (-) TimerEvent: {}
+[8.897871] (-) TimerEvent: {}
+[8.998769] (-) TimerEvent: {}
+[9.099714] (-) TimerEvent: {}
+[9.200603] (-) TimerEvent: {}
+[9.301472] (-) TimerEvent: {}
+[9.402308] (-) TimerEvent: {}
+[9.503094] (-) TimerEvent: {}
+[9.604019] (-) TimerEvent: {}
+[9.704970] (-) TimerEvent: {}
+[9.805811] (-) TimerEvent: {}
+[9.906681] (-) TimerEvent: {}
+[10.007539] (-) TimerEvent: {}
+[10.108464] (-) TimerEvent: {}
+[10.209349] (-) TimerEvent: {}
+[10.310219] (-) TimerEvent: {}
+[10.411058] (-) TimerEvent: {}
+[10.512035] (-) TimerEvent: {}
+[10.612839] (-) TimerEvent: {}
+[10.713629] (-) TimerEvent: {}
+[10.814459] (-) TimerEvent: {}
+[10.915314] (-) TimerEvent: {}
+[11.016160] (-) TimerEvent: {}
+[11.117010] (-) TimerEvent: {}
+[11.217894] (-) TimerEvent: {}
+[11.318744] (-) TimerEvent: {}
+[11.419710] (-) TimerEvent: {}
+[11.520483] (-) TimerEvent: {}
+[11.621280] (-) TimerEvent: {}
+[11.722075] (-) TimerEvent: {}
+[11.822884] (-) TimerEvent: {}
+[11.923777] (-) TimerEvent: {}
+[12.024583] (-) TimerEvent: {}
+[12.125419] (-) TimerEvent: {}
+[12.226349] (-) TimerEvent: {}
+[12.327241] (-) TimerEvent: {}
+[12.428109] (-) TimerEvent: {}
+[12.528936] (-) TimerEvent: {}
+[12.629713] (-) TimerEvent: {}
+[12.730539] (-) TimerEvent: {}
+[12.831462] (-) TimerEvent: {}
+[12.932324] (-) TimerEvent: {}
+[13.033118] (-) TimerEvent: {}
+[13.133924] (-) TimerEvent: {}
+[13.234723] (-) TimerEvent: {}
+[13.335605] (-) TimerEvent: {}
+[13.436372] (-) TimerEvent: {}
+[13.537157] (-) TimerEvent: {}
+[13.637983] (-) TimerEvent: {}
+[13.738824] (-) TimerEvent: {}
+[13.839689] (-) TimerEvent: {}
+[13.940490] (-) TimerEvent: {}
+[14.041276] (-) TimerEvent: {}
+[14.142109] (-) TimerEvent: {}
+[14.242923] (-) TimerEvent: {}
+[14.343832] (-) TimerEvent: {}
+[14.444645] (-) TimerEvent: {}
+[14.545515] (-) TimerEvent: {}
+[14.646533] (-) TimerEvent: {}
+[14.747369] (-) TimerEvent: {}
+[14.848226] (-) TimerEvent: {}
+[14.949075] (-) TimerEvent: {}
+[15.049919] (-) TimerEvent: {}
+[15.150791] (-) TimerEvent: {}
+[15.251638] (-) TimerEvent: {}
+[15.352441] (-) TimerEvent: {}
+[15.453259] (-) TimerEvent: {}
+[15.554092] (-) TimerEvent: {}
+[15.654991] (-) TimerEvent: {}
+[15.755907] (-) TimerEvent: {}
+[15.856720] (-) TimerEvent: {}
+[15.957554] (-) TimerEvent: {}
+[16.058364] (-) TimerEvent: {}
+[16.159206] (-) TimerEvent: {}
+[16.260061] (-) TimerEvent: {}
+[16.360861] (-) TimerEvent: {}
+[16.461711] (-) TimerEvent: {}
+[16.562613] (-) TimerEvent: {}
+[16.663481] (-) TimerEvent: {}
+[16.764329] (-) TimerEvent: {}
+[16.822271] (hardware_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[16.824426] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[16.825202] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.825659] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.826099] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:3\x1b[m\x1b[K:\n'}
+[16.826521] (hardware_interface) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::pair<int, int>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.827070] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:21:36:\x1b[m\x1b[K   required from here\n'}
+[16.827490] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:204:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::pair<int, int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.828078] (hardware_interface) StderrLine: {'line': b'  204 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[16.828518] (hardware_interface) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.828904] (hardware_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[16.829312] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[16.829702] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54\x1b[m\x1b[K,\n'}
+[16.830104] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[16.830500] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.830885] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.831273] (hardware_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:3\x1b[m\x1b[K:\n'}
+[16.831889] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:121:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.833563] (hardware_interface) StderrLine: {'line': b'  121 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[16.834180] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.834716] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.835314] (hardware_interface) StderrLine: {'line': b'  121 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[16.835913] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.836417] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:118:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.837055] (hardware_interface) StderrLine: {'line': b'  118 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[16.838804] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.839442] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:118:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.840196] (hardware_interface) StderrLine: {'line': b'  118 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[16.840835] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.841524] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:115:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.842137] (hardware_interface) StderrLine: {'line': b'  115 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[16.842639] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.843306] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:115:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.844915] (hardware_interface) StderrLine: {'line': b'  115 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[16.845368] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.845711] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:112:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.846067] (hardware_interface) StderrLine: {'line': b'  112 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[16.846485] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.846838] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:112:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.847166] (hardware_interface) StderrLine: {'line': b'  112 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[16.847485] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.848859] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:109:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.849380] (hardware_interface) StderrLine: {'line': b'  109 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[16.849844] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.850184] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:109:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.850572] (hardware_interface) StderrLine: {'line': b'  109 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[16.850952] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.851329] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:106:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.851706] (hardware_interface) StderrLine: {'line': b'  106 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[16.852080] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.852408] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:106:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.852763] (hardware_interface) StderrLine: {'line': b'  106 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[16.853109] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.853678] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.854191] (hardware_interface) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[16.854868] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.855213] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:103:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.855638] (hardware_interface) StderrLine: {'line': b'  103 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[16.856007] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.856460] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:100:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.857155] (hardware_interface) StderrLine: {'line': b'  100 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[16.857855] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.858696] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:100:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.859540] (hardware_interface) StderrLine: {'line': b'  100 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[16.860684] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.861283] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:97:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.861869] (hardware_interface) StderrLine: {'line': b'   97 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[16.862414] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.862970] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:97:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[16.863473] (hardware_interface) StderrLine: {'line': b'   97 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[16.863935] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.864323] (-) TimerEvent: {}
+[16.864756] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.865276] (hardware_interface) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[16.865724] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.866179] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.866592] (hardware_interface) StderrLine: {'line': b'   94 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[16.866990] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.867402] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.867901] (hardware_interface) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[16.868327] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.868742] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.869425] (hardware_interface) StderrLine: {'line': b'   91 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[16.869863] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.870270] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.870743] (hardware_interface) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[16.871283] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.871973] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[16.873087] (hardware_interface) StderrLine: {'line': b'   88 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[16.873649] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[16.874077] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.874502] (hardware_interface) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[16.874916] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.875880] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.876324] (hardware_interface) StderrLine: {'line': b'   85 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[16.876711] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[16.877135] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.877577] (hardware_interface) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[16.877951] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.878366] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.878795] (hardware_interface) StderrLine: {'line': b'   82 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[16.879230] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.879765] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:79:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.880212] (hardware_interface) StderrLine: {'line': b'   79 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[16.880653] (hardware_interface) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.881057] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:79:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[16.881476] (hardware_interface) StderrLine: {'line': b'   79 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[16.881871] (hardware_interface) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.882263] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.882658] (hardware_interface) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[16.883054] (hardware_interface) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.883454] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[16.883937] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.884367] (hardware_interface) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[16.884765] (hardware_interface) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.885140] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.885690] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.886272] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.886971] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[16.887953] (hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:35:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kto_msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.888495] (hardware_interface) StderrLine: {'line': b'   35 |                         msg->header.stamp = this->get_clock()->now().\x1b[01;31m\x1b[Kto_msg\x1b[m\x1b[K();\n'}
+[16.888937] (hardware_interface) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.964543] (-) TimerEvent: {}
+[17.065341] (-) TimerEvent: {}
+[17.166160] (-) TimerEvent: {}
+[17.267021] (-) TimerEvent: {}
+[17.367986] (-) TimerEvent: {}
+[17.468781] (-) TimerEvent: {}
+[17.569595] (-) TimerEvent: {}
+[17.670411] (-) TimerEvent: {}
+[17.771257] (-) TimerEvent: {}
+[17.872099] (-) TimerEvent: {}
+[17.972991] (-) TimerEvent: {}
+[18.073788] (-) TimerEvent: {}
+[18.174608] (-) TimerEvent: {}
+[18.275409] (-) TimerEvent: {}
+[18.376309] (-) TimerEvent: {}
+[18.477102] (-) TimerEvent: {}
+[18.577928] (-) TimerEvent: {}
+[18.678830] (-) TimerEvent: {}
+[18.779718] (-) TimerEvent: {}
+[18.880489] (-) TimerEvent: {}
+[18.981287] (-) TimerEvent: {}
+[19.082104] (-) TimerEvent: {}
+[19.182943] (-) TimerEvent: {}
+[19.283763] (-) TimerEvent: {}
+[19.384541] (-) TimerEvent: {}
+[19.485339] (-) TimerEvent: {}
+[19.586161] (-) TimerEvent: {}
+[19.687002] (-) TimerEvent: {}
+[19.788018] (-) TimerEvent: {}
+[19.888895] (-) TimerEvent: {}
+[19.989756] (-) TimerEvent: {}
+[20.090617] (-) TimerEvent: {}
+[20.191402] (-) TimerEvent: {}
+[20.292241] (-) TimerEvent: {}
+[20.393100] (-) TimerEvent: {}
+[20.493981] (-) TimerEvent: {}
+[20.594817] (-) TimerEvent: {}
+[20.695709] (-) TimerEvent: {}
+[20.796547] (-) TimerEvent: {}
+[20.897341] (-) TimerEvent: {}
+[20.998140] (-) TimerEvent: {}
+[21.098892] (-) TimerEvent: {}
+[21.199736] (-) TimerEvent: {}
+[21.300673] (-) TimerEvent: {}
+[21.401576] (-) TimerEvent: {}
+[21.502565] (-) TimerEvent: {}
+[21.533588] (hardware_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/camera.cpp.o] Error 1\n'}
+[21.534713] (hardware_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera.dir/all] Error 2\n'}
+[21.535933] (hardware_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.544113] (hardware_interface) CommandEnded: {'returncode': 2}
+[21.582905] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 2}
+[21.595735] (-) EventReactorShutdown: {}

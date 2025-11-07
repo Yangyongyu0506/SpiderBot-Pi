@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.001616] (-) JobUnselected: {'identifier': 'hardware_interface_py'}
+[0.002179] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict()}
+[0.002659] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.040925] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.044377] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'build'}
+[0.047845] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', '--', '-j4', '-l4'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 56652 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-21448c0c-56f2-498a-882f-9b761366ab9b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ee662827d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 56652 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble')]), 'shell': False}
+[0.099067] (-) TimerEvent: {}
+[0.199927] (-) TimerEvent: {}
+[0.261806] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[0.300227] (-) TimerEvent: {}
+[0.378023] (hardware_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.400441] (-) TimerEvent: {}
+[0.501322] (-) TimerEvent: {}
+[0.602008] (-) TimerEvent: {}
+[0.702739] (-) TimerEvent: {}
+[0.803525] (-) TimerEvent: {}
+[0.904245] (-) TimerEvent: {}
+[1.004962] (-) TimerEvent: {}
+[1.105662] (-) TimerEvent: {}
+[1.206387] (-) TimerEvent: {}
+[1.307116] (-) TimerEvent: {}
+[1.407864] (-) TimerEvent: {}
+[1.508615] (-) TimerEvent: {}
+[1.609375] (-) TimerEvent: {}
+[1.710107] (-) TimerEvent: {}
+[1.810941] (-) TimerEvent: {}
+[1.911842] (-) TimerEvent: {}
+[2.012795] (-) TimerEvent: {}
+[2.113577] (-) TimerEvent: {}
+[2.214367] (-) TimerEvent: {}
+[2.315136] (-) TimerEvent: {}
+[2.416072] (-) TimerEvent: {}
+[2.516940] (-) TimerEvent: {}
+[2.617742] (-) TimerEvent: {}
+[2.718558] (-) TimerEvent: {}
+[2.819463] (-) TimerEvent: {}
+[2.920264] (-) TimerEvent: {}
+[3.021069] (-) TimerEvent: {}
+[3.121867] (-) TimerEvent: {}
+[3.222977] (-) TimerEvent: {}
+[3.324406] (-) TimerEvent: {}
+[3.425292] (-) TimerEvent: {}
+[3.526156] (-) TimerEvent: {}
+[3.627133] (-) TimerEvent: {}
+[3.727998] (-) TimerEvent: {}
+[3.828817] (-) TimerEvent: {}
+[3.929635] (-) TimerEvent: {}
+[4.030594] (-) TimerEvent: {}
+[4.131538] (-) TimerEvent: {}
+[4.232421] (-) TimerEvent: {}
+[4.333234] (-) TimerEvent: {}
+[4.433987] (-) TimerEvent: {}
+[4.534836] (-) TimerEvent: {}
+[4.635597] (-) TimerEvent: {}
+[4.736422] (-) TimerEvent: {}
+[4.837247] (-) TimerEvent: {}
+[4.938057] (-) TimerEvent: {}
+[5.038928] (-) TimerEvent: {}
+[5.139777] (-) TimerEvent: {}
+[5.240635] (-) TimerEvent: {}
+[5.341421] (-) TimerEvent: {}
+[5.442275] (-) TimerEvent: {}
+[5.543145] (-) TimerEvent: {}
+[5.644019] (-) TimerEvent: {}
+[5.744840] (-) TimerEvent: {}
+[5.845816] (-) TimerEvent: {}
+[5.946615] (-) TimerEvent: {}
+[6.047461] (-) TimerEvent: {}
+[6.148260] (-) TimerEvent: {}
+[6.249067] (-) TimerEvent: {}
+[6.349999] (-) TimerEvent: {}
+[6.450888] (-) TimerEvent: {}
+[6.551664] (-) TimerEvent: {}
+[6.652455] (-) TimerEvent: {}
+[6.753269] (-) TimerEvent: {}
+[6.854165] (-) TimerEvent: {}
+[6.954972] (-) TimerEvent: {}
+[7.055727] (-) TimerEvent: {}
+[7.156580] (-) TimerEvent: {}
+[7.257450] (-) TimerEvent: {}
+[7.358428] (-) TimerEvent: {}
+[7.459301] (-) TimerEvent: {}
+[7.560066] (-) TimerEvent: {}
+[7.660872] (-) TimerEvent: {}
+[7.762032] (-) TimerEvent: {}
+[7.862901] (-) TimerEvent: {}
+[7.963869] (-) TimerEvent: {}
+[8.064791] (-) TimerEvent: {}
+[8.165646] (-) TimerEvent: {}
+[8.266445] (-) TimerEvent: {}
+[8.367304] (-) TimerEvent: {}
+[8.468161] (-) TimerEvent: {}
+[8.569099] (-) TimerEvent: {}
+[8.670067] (-) TimerEvent: {}
+[8.770920] (-) TimerEvent: {}
+[8.871766] (-) TimerEvent: {}
+[8.972625] (-) TimerEvent: {}
+[9.073523] (-) TimerEvent: {}
+[9.174425] (-) TimerEvent: {}
+[9.275257] (-) TimerEvent: {}
+[9.376022] (-) TimerEvent: {}
+[9.476869] (-) TimerEvent: {}
+[9.577682] (-) TimerEvent: {}
+[9.678551] (-) TimerEvent: {}
+[9.779398] (-) TimerEvent: {}
+[9.880194] (-) TimerEvent: {}
+[9.981045] (-) TimerEvent: {}
+[10.081872] (-) TimerEvent: {}
+[10.182730] (-) TimerEvent: {}
+[10.283544] (-) TimerEvent: {}
+[10.384449] (-) TimerEvent: {}
+[10.485314] (-) TimerEvent: {}
+[10.586162] (-) TimerEvent: {}
+[10.687196] (-) TimerEvent: {}
+[10.788021] (-) TimerEvent: {}
+[10.888804] (-) TimerEvent: {}
+[10.989660] (-) TimerEvent: {}
+[11.090450] (-) TimerEvent: {}
+[11.191342] (-) TimerEvent: {}
+[11.292164] (-) TimerEvent: {}
+[11.392957] (-) TimerEvent: {}
+[11.493785] (-) TimerEvent: {}
+[11.594568] (-) TimerEvent: {}
+[11.695408] (-) TimerEvent: {}
+[11.796271] (-) TimerEvent: {}
+[11.897172] (-) TimerEvent: {}
+[11.997986] (-) TimerEvent: {}
+[12.098838] (-) TimerEvent: {}
+[12.199653] (-) TimerEvent: {}
+[12.300482] (-) TimerEvent: {}
+[12.401265] (-) TimerEvent: {}
+[12.502086] (-) TimerEvent: {}
+[12.602916] (-) TimerEvent: {}
+[12.703681] (-) TimerEvent: {}
+[12.804515] (-) TimerEvent: {}
+[12.905293] (-) TimerEvent: {}
+[13.006093] (-) TimerEvent: {}
+[13.106993] (-) TimerEvent: {}
+[13.207896] (-) TimerEvent: {}
+[13.308748] (-) TimerEvent: {}
+[13.409534] (-) TimerEvent: {}
+[13.510324] (-) TimerEvent: {}
+[13.611201] (-) TimerEvent: {}
+[13.711995] (-) TimerEvent: {}
+[13.812948] (-) TimerEvent: {}
+[13.913912] (-) TimerEvent: {}
+[14.014755] (-) TimerEvent: {}
+[14.115667] (-) TimerEvent: {}
+[14.216474] (-) TimerEvent: {}
+[14.317286] (-) TimerEvent: {}
+[14.418080] (-) TimerEvent: {}
+[14.518924] (-) TimerEvent: {}
+[14.619803] (-) TimerEvent: {}
+[14.720738] (-) TimerEvent: {}
+[14.821593] (-) TimerEvent: {}
+[14.922390] (-) TimerEvent: {}
+[15.023608] (-) TimerEvent: {}
+[15.124382] (-) TimerEvent: {}
+[15.225237] (-) TimerEvent: {}
+[15.326212] (-) TimerEvent: {}
+[15.427075] (-) TimerEvent: {}
+[15.527876] (-) TimerEvent: {}
+[15.628697] (-) TimerEvent: {}
+[15.729551] (-) TimerEvent: {}
+[15.830411] (-) TimerEvent: {}
+[15.931298] (-) TimerEvent: {}
+[16.032136] (-) TimerEvent: {}
+[16.133020] (-) TimerEvent: {}
+[16.233882] (-) TimerEvent: {}
+[16.334777] (-) TimerEvent: {}
+[16.435611] (-) TimerEvent: {}
+[16.536404] (-) TimerEvent: {}
+[16.637205] (-) TimerEvent: {}
+[16.738076] (-) TimerEvent: {}
+[16.838948] (-) TimerEvent: {}
+[16.939731] (-) TimerEvent: {}
+[17.040549] (-) TimerEvent: {}
+[17.141465] (-) TimerEvent: {}
+[17.242335] (-) TimerEvent: {}
+[17.343278] (-) TimerEvent: {}
+[17.444081] (-) TimerEvent: {}
+[17.544964] (-) TimerEvent: {}
+[17.645808] (-) TimerEvent: {}
+[17.746699] (-) TimerEvent: {}
+[17.847524] (-) TimerEvent: {}
+[17.948339] (-) TimerEvent: {}
+[18.049194] (-) TimerEvent: {}
+[18.150001] (-) TimerEvent: {}
+[18.250861] (-) TimerEvent: {}
+[18.351717] (-) TimerEvent: {}
+[18.452624] (-) TimerEvent: {}
+[18.553435] (-) TimerEvent: {}
+[18.654318] (-) TimerEvent: {}
+[18.755513] (-) TimerEvent: {}
+[18.856368] (-) TimerEvent: {}
+[18.957246] (-) TimerEvent: {}
+[19.058346] (-) TimerEvent: {}
+[19.159193] (-) TimerEvent: {}
+[19.259951] (-) TimerEvent: {}
+[19.360744] (-) TimerEvent: {}
+[19.461627] (-) TimerEvent: {}
+[19.562563] (-) TimerEvent: {}
+[19.663777] (-) TimerEvent: {}
+[19.764599] (-) TimerEvent: {}
+[19.865545] (-) TimerEvent: {}
+[19.966912] (-) TimerEvent: {}
+[20.068062] (-) TimerEvent: {}
+[20.168840] (-) TimerEvent: {}
+[20.269653] (-) TimerEvent: {}
+[20.370444] (-) TimerEvent: {}
+[20.471277] (-) TimerEvent: {}
+[20.572010] (-) TimerEvent: {}
+[20.672843] (-) TimerEvent: {}
+[20.774006] (-) TimerEvent: {}
+[20.875163] (-) TimerEvent: {}
+[20.975971] (-) TimerEvent: {}
+[21.076808] (-) TimerEvent: {}
+[21.177685] (-) TimerEvent: {}
+[21.278486] (-) TimerEvent: {}
+[21.379373] (-) TimerEvent: {}
+[21.480423] (-) TimerEvent: {}
+[21.581248] (-) TimerEvent: {}
+[21.682030] (-) TimerEvent: {}
+[21.782833] (-) TimerEvent: {}
+[21.883652] (-) TimerEvent: {}
+[21.984409] (-) TimerEvent: {}
+[22.085215] (-) TimerEvent: {}
+[22.186009] (-) TimerEvent: {}
+[22.286778] (-) TimerEvent: {}
+[22.387657] (-) TimerEvent: {}
+[22.488442] (-) TimerEvent: {}
+[22.589179] (-) TimerEvent: {}
+[22.689933] (-) TimerEvent: {}
+[22.790712] (-) TimerEvent: {}
+[22.891615] (-) TimerEvent: {}
+[22.992371] (-) TimerEvent: {}
+[23.093157] (-) TimerEvent: {}
+[23.193941] (-) TimerEvent: {}
+[23.294723] (-) TimerEvent: {}
+[23.395605] (-) TimerEvent: {}
+[23.496391] (-) TimerEvent: {}
+[23.597235] (-) TimerEvent: {}
+[23.698079] (-) TimerEvent: {}
+[23.798931] (-) TimerEvent: {}
+[23.899825] (-) TimerEvent: {}
+[24.000858] (-) TimerEvent: {}
+[24.101759] (-) TimerEvent: {}
+[24.202724] (-) TimerEvent: {}
+[24.303699] (-) TimerEvent: {}
+[24.404489] (-) TimerEvent: {}
+[24.505305] (-) TimerEvent: {}
+[24.606247] (-) TimerEvent: {}
+[24.707273] (-) TimerEvent: {}
+[24.808024] (-) TimerEvent: {}
+[24.908738] (-) TimerEvent: {}
+[24.957806] (hardware_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera\x1b[0m\n'}
+[25.008964] (-) TimerEvent: {}
+[25.110819] (-) TimerEvent: {}
+[25.211823] (-) TimerEvent: {}
+[25.312954] (-) TimerEvent: {}
+[25.413780] (-) TimerEvent: {}
+[25.514587] (-) TimerEvent: {}
+[25.615516] (-) TimerEvent: {}
+[25.716457] (-) TimerEvent: {}
+[25.817832] (-) TimerEvent: {}
+[25.919003] (-) TimerEvent: {}
+[26.020025] (-) TimerEvent: {}
+[26.121021] (-) TimerEvent: {}
+[26.221875] (-) TimerEvent: {}
+[26.322654] (-) TimerEvent: {}
+[26.423545] (-) TimerEvent: {}
+[26.524690] (-) TimerEvent: {}
+[26.625389] (-) TimerEvent: {}
+[26.726290] (-) TimerEvent: {}
+[26.827286] (-) TimerEvent: {}
+[26.928246] (-) TimerEvent: {}
+[27.029227] (-) TimerEvent: {}
+[27.130115] (-) TimerEvent: {}
+[27.230973] (-) TimerEvent: {}
+[27.331777] (-) TimerEvent: {}
+[27.432872] (-) TimerEvent: {}
+[27.533903] (-) TimerEvent: {}
+[27.635084] (-) TimerEvent: {}
+[27.736188] (-) TimerEvent: {}
+[27.837111] (-) TimerEvent: {}
+[27.937887] (-) TimerEvent: {}
+[28.038837] (-) TimerEvent: {}
+[28.139843] (-) TimerEvent: {}
+[28.240643] (-) TimerEvent: {}
+[28.341435] (-) TimerEvent: {}
+[28.442172] (-) TimerEvent: {}
+[28.543045] (-) TimerEvent: {}
+[28.644015] (-) TimerEvent: {}
+[28.744862] (-) TimerEvent: {}
+[28.845742] (-) TimerEvent: {}
+[28.946618] (-) TimerEvent: {}
+[29.047479] (-) TimerEvent: {}
+[29.080290] (hardware_interface) StdoutLine: {'line': b'[100%] Built target camera\n'}
+[29.121882] (hardware_interface) CommandEnded: {'returncode': 0}
+[29.130410] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'install'}
+[29.147745] (-) TimerEvent: {}
+[29.167819] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 56652 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-21448c0c-56f2-498a-882f-9b761366ab9b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1ee662827d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 56652 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble')]), 'shell': False}
+[29.211150] (hardware_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.218473] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera\n'}
+[29.230663] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera" to ""\n'}
+[29.231945] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface\n'}
+[29.233450] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface\n'}
+[29.234835] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh\n'}
+[29.235513] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv\n'}
+[29.236949] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh\n'}
+[29.237700] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv\n'}
+[29.238650] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash\n'}
+[29.240328] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh\n'}
+[29.240870] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh\n'}
+[29.241455] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv\n'}
+[29.242055] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv\n'}
+[29.246769] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface\n'}
+[29.247882] (-) TimerEvent: {}
+[29.248686] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake\n'}
+[29.249502] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake\n'}
+[29.250061] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml\n'}
+[29.259173] (hardware_interface) CommandEnded: {'returncode': 0}
+[29.348086] (-) TimerEvent: {}
+[29.372536] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 0}
+[29.376634] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.067s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target camera[0m
+[0.534s] [ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o[0m
+[16.444s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.446s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.446s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.449s]                  from [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:3[m[K:
+[16.449s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[16.450s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+[16.450s]    29 |             RCLCPP_INFO(this->get_logger(), "Camera opened (%dx%d)", [01;31m[Kwidth[m[K, height);
+[16.451s]       |                                                                      [01;31m[K^~~~~[m[K
+[16.485s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+[16.486s]    29 |             RCLCPP_INFO(this->get_logger(), "Camera opened (%dx%d)", width, [01;31m[Kheight[m[K);
+[16.486s]       |                                                                             [01;31m[K^~~~~~[m[K
+[21.173s] gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/camera.cpp.o] Error 1
+[21.175s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera.dir/all] Error 2
+[21.178s] gmake: *** [Makefile:146: all] Error 2
+[21.263s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4

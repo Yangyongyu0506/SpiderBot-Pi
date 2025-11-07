@@ -1,0 +1,21 @@
+[3.368s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hardware_interface_py build --build-base /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build install --record /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log --single-version-externally-managed install_data
+[4.954s] running egg_info
+[4.958s] writing ../../build/hardware_interface_py/hardware_interface_py.egg-info/PKG-INFO
+[4.960s] writing dependency_links to ../../build/hardware_interface_py/hardware_interface_py.egg-info/dependency_links.txt
+[4.961s] writing entry points to ../../build/hardware_interface_py/hardware_interface_py.egg-info/entry_points.txt
+[4.963s] writing requirements to ../../build/hardware_interface_py/hardware_interface_py.egg-info/requires.txt
+[4.964s] writing top-level names to ../../build/hardware_interface_py/hardware_interface_py.egg-info/top_level.txt
+[4.972s] reading manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'
+[4.977s] writing manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'
+[4.979s] running build
+[4.979s] running build_py
+[4.981s] running install
+[4.982s] running install_lib
+[4.989s] running install_data
+[4.990s] running install_egg_info
+[4.998s] removing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.001s] Copying ../../build/hardware_interface_py/hardware_interface_py.egg-info to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py-0.0.0-py3.10.egg-info
+[5.016s] running install_scripts
+[5.110s] Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+[5.112s] writing list of installed files to '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log'
+[5.248s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py' returned '0': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hardware_interface_py build --build-base /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build install --record /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log --single-version-externally-managed install_data

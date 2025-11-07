@@ -1,0 +1,32 @@
+running develop
+Removing /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware-interface-py.egg-link (link to .)
+running egg_info
+writing ../../build/hardware_interface_py/hardware_interface_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hardware_interface_py/hardware_interface_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hardware_interface_py/hardware_interface_py.egg-info/entry_points.txt
+writing requirements to ../../build/hardware_interface_py/hardware_interface_py.egg-info/requires.txt
+writing top-level names to ../../build/hardware_interface_py/hardware_interface_py.egg-info/top_level.txt
+reading manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/hardware_interface_py/hardware_interface_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build
+creating /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib
+creating /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib/hardware_interface_py
+copying hardware_interface_py/camera.py -> /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib/hardware_interface_py
+copying hardware_interface_py/__init__.py -> /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib/hardware_interface_py
+running install
+running install_lib
+creating /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py
+copying /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib/hardware_interface_py/camera.py -> /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py
+copying /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build/lib/hardware_interface_py/__init__.py -> /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py
+byte-compiling /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py/camera.py to camera.cpython-310.pyc
+byte-compiling /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/hardware_interface_py -> /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py
+running install_egg_info
+Copying ../../build/hardware_interface_py/hardware_interface_py.egg-info to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware_interface_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+writing list of installed files to '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/install.log'
