@@ -1,6 +1,7 @@
 # Development Logging
 ## 2025.11.7
 Fuck, why doesn't ROS-HUMBLE support rclpy.parameter_event_handler like JAZZY?
+
 -To calibrate the camera, run the following command:
 ```bash
 source install/setup.bash
