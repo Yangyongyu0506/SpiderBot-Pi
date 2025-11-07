@@ -1,0 +1,51 @@
+[0.073s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+[1.036s] -- The C compiler identification is GNU 11.4.0
+[1.781s] -- The CXX compiler identification is GNU 11.4.0
+[1.837s] -- Detecting C compiler ABI info
+[2.281s] -- Detecting C compiler ABI info - done
+[2.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.314s] -- Detecting C compile features
+[2.317s] -- Detecting C compile features - done
+[2.335s] -- Detecting CXX compiler ABI info
+[2.723s] -- Detecting CXX compiler ABI info - done
+[2.751s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.753s] -- Detecting CXX compile features
+[2.754s] -- Detecting CXX compile features - done
+[2.829s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.676s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.651s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[5.208s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.282s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.372s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.202s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.005s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.282s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.718s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.845s] -- Looking for pthread.h
+[8.219s] -- Looking for pthread.h - found
+[8.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.626s] -- Found Threads: TRUE  
+[9.278s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[9.278s]   By not providing "Findopencv.cmake" in CMAKE_MODULE_PATH this project has
+[9.279s]   asked CMake to find a package configuration file provided by "opencv", but
+[9.279s]   CMake did not find one.
+[9.280s] 
+[9.281s]   Could not find a package configuration file provided by "opencv" with any
+[9.281s]   of the following names:
+[9.282s] 
+[9.282s]     opencvConfig.cmake
+[9.283s]     opencv-config.cmake
+[9.283s] 
+[9.283s]   Add the installation prefix of "opencv" to CMAKE_PREFIX_PATH or set
+[9.285s]   "opencv_DIR" to a directory containing one of the above files.  If "opencv"
+[9.287s]   provides a separate development package or SDK, be sure it has been
+[9.288s]   installed.
+[9.301s] 
+[9.301s] [0m
+[9.302s] -- Configuring incomplete, errors occurred!
+[9.303s] See also "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/CMakeFiles/CMakeOutput.log".
+[9.312s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface

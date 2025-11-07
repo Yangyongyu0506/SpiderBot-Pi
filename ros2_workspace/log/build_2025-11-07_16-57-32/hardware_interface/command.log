@@ -1,0 +1,2 @@
+Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface

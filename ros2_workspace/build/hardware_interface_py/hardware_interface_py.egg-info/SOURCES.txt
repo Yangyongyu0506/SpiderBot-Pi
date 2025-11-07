@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+hardware_interface_py/__init__.py
+hardware_interface_py/camera.py
+hardware_interface_py.egg-info/PKG-INFO
+hardware_interface_py.egg-info/SOURCES.txt
+hardware_interface_py.egg-info/dependency_links.txt
+hardware_interface_py.egg-info/entry_points.txt
+hardware_interface_py.egg-info/requires.txt
+hardware_interface_py.egg-info/top_level.txt
+hardware_interface_py.egg-info/zip-safe
+resource/hardware_interface_py

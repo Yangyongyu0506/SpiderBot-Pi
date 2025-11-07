@@ -1,0 +1,18 @@
+[0.083s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[0.436s] [35m[1mConsolidate compiler generated dependencies of target camera[0m
+[0.581s] [ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o[0m
+[15.761s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:14:20:[m[K [01;31m[Kerror: [m[K‘[01m[KCvBridge[m[K’ in namespace ‘[01m[Kcv_bridge[m[K’ does not name a type
+[15.761s]    14 |         cv_bridge::[01;31m[KCvBridge[m[K bridge_;
+[15.762s]       |                    [01;31m[K^~~~~~~~[m[K
+[15.763s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[15.763s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:17:44:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCameraNode[m[K’ does not have any field named ‘[01m[Kbridge_[m[K’
+[15.764s]    17 |         CameraNode(): Node("camera_node"), [01;31m[Kbridge_[m[K() {
+[15.764s]       |                                            [01;31m[K^~~~~~~[m[K
+[15.794s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:[m[K In lambda function:
+[15.794s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CameraNode[m[K’ has no member named ‘[01m[Kbridge_[m[K’
+[15.795s]    29 |                         *msg = *this->[01;31m[Kbridge_[m[K.cv2_to_imgmsg(frame, "bgr8");
+[15.795s]       |                                       [01;31m[K^~~~~~~[m[K
+[20.335s] gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/camera.cpp.o] Error 1
+[20.336s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera.dir/all] Error 2
+[20.337s] gmake: *** [Makefile:146: all] Error 2
+[20.346s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
