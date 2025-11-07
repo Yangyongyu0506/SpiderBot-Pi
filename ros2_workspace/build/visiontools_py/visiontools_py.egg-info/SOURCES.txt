@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+config/ost.yaml
+launch/visiontools_launch.yaml
+resource/visiontools_py
+visiontools_py/__init__.py
+visiontools_py/camera.py
+visiontools_py/camera_info.py
+visiontools_py.egg-info/PKG-INFO
+visiontools_py.egg-info/SOURCES.txt
+visiontools_py.egg-info/dependency_links.txt
+visiontools_py.egg-info/entry_points.txt
+visiontools_py.egg-info/requires.txt
+visiontools_py.egg-info/top_level.txt
+visiontools_py.egg-info/zip-safe

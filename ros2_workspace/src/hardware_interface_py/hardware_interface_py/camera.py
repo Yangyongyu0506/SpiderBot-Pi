@@ -7,7 +7,7 @@ from cv_bridge import CvBridge
 class CameraNode(Node):
     def __init__(self):
         super().__init__('camera_node')
-        self.publisher_ = self.create_publisher(Image, 'camera/image', 10)
+        self.publisher_ = self.create_publisher(Image, 'image', 10)
         self.declare_parameter('cam_index', 0)
         self.declare_parameter('cam_period', 0.1)
         cam_index = self.get_parameter('cam_index').get_parameter_value().integer_value

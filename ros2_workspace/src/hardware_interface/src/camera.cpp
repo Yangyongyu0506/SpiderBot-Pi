@@ -14,7 +14,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
 public:
     CameraNode(): Node("camera_node") {
-        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("camera/image", 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image", 10);
 
         this->declare_parameter<int>("cam_index", 0);
         this->declare_parameter<double>("cam_period", 0.1);
@@ -26,7 +26,7 @@ public:
         if(!cap_.open(cam_index, cv::CAP_V4L2)) {
             RCLCPP_ERROR(this->get_logger(), "Failed to open camera %d", cam_index);
         } else {
-            RCLCPP_INFO(this->get_logger(), "Camera opened (%dx%d)", cap_.get(cv::CAP_PROP_FRAME_WIDTH), cap_.get(cv::CAP_PROP_FRAME_HEIGHT));
+            RCLCPP_INFO(this->get_logger(), "Camera opened (%fx%f)", cap_.get(cv::CAP_PROP_FRAME_WIDTH), cap_.get(cv::CAP_PROP_FRAME_HEIGHT));
         }
 
         auto timer_callback = [this]() {

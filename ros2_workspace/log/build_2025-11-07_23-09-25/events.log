@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.001605] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.002232] (-) JobUnselected: {'identifier': 'hardware_interface_py'}
+[0.002775] (visiontools_py) JobQueued: {'identifier': 'visiontools_py', 'dependencies': OrderedDict()}
+[0.002989] (visiontools_py) JobStarted: {'identifier': 'visiontools_py'}
+[0.099031] (-) TimerEvent: {}
+[0.199794] (-) TimerEvent: {}
+[0.300603] (-) TimerEvent: {}
+[0.401333] (-) TimerEvent: {}
+[0.501995] (-) TimerEvent: {}
+[0.602639] (-) TimerEvent: {}
+[0.703374] (-) TimerEvent: {}
+[0.804168] (-) TimerEvent: {}
+[0.904854] (-) TimerEvent: {}
+[1.005538] (-) TimerEvent: {}
+[1.106317] (-) TimerEvent: {}
+[1.207392] (-) TimerEvent: {}
+[1.308168] (-) TimerEvent: {}
+[1.409140] (-) TimerEvent: {}
+[1.510140] (-) TimerEvent: {}
+[1.610828] (-) TimerEvent: {}
+[1.711956] (-) TimerEvent: {}
+[1.812839] (-) TimerEvent: {}
+[1.913509] (-) TimerEvent: {}
+[2.014164] (-) TimerEvent: {}
+[2.114821] (-) TimerEvent: {}
+[2.215473] (-) TimerEvent: {}
+[2.316181] (-) TimerEvent: {}
+[2.416825] (-) TimerEvent: {}
+[2.517509] (-) TimerEvent: {}
+[2.618275] (-) TimerEvent: {}
+[2.719107] (-) TimerEvent: {}
+[2.819846] (-) TimerEvent: {}
+[2.921135] (-) TimerEvent: {}
+[3.022215] (-) TimerEvent: {}
+[3.102461] (visiontools_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '192.168.1.72 62545 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot/ros2_workspace/src/visiontools_py/visiontools_py', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d7236b9c-be7a-4335-b994-e66d9bb7dcce.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py', 'SSH_CONNECTION': '192.168.1.72 62545 192.168.1.78 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface'}, 'shell': False}
+[3.122437] (-) TimerEvent: {}
+[3.223358] (-) TimerEvent: {}
+[3.324162] (-) TimerEvent: {}
+[3.424881] (-) TimerEvent: {}
+[3.525589] (-) TimerEvent: {}
+[3.626308] (-) TimerEvent: {}
+[3.727007] (-) TimerEvent: {}
+[3.827683] (-) TimerEvent: {}
+[3.928450] (-) TimerEvent: {}
+[4.029102] (-) TimerEvent: {}
+[4.129793] (-) TimerEvent: {}
+[4.230537] (-) TimerEvent: {}
+[4.325708] (visiontools_py) StdoutLine: {'line': b'running develop\n'}
+[4.330758] (-) TimerEvent: {}
+[4.431638] (-) TimerEvent: {}
+[4.532443] (-) TimerEvent: {}
+[4.633189] (-) TimerEvent: {}
+[4.733897] (-) TimerEvent: {}
+[4.834585] (-) TimerEvent: {}
+[4.935305] (-) TimerEvent: {}
+[5.035964] (-) TimerEvent: {}
+[5.136627] (-) TimerEvent: {}
+[5.176609] (visiontools_py) StdoutLine: {'line': b'running egg_info\n'}
+[5.177289] (visiontools_py) StdoutLine: {'line': b'writing visiontools_py.egg-info/PKG-INFO\n'}
+[5.178458] (visiontools_py) StdoutLine: {'line': b'writing dependency_links to visiontools_py.egg-info/dependency_links.txt\n'}
+[5.179557] (visiontools_py) StdoutLine: {'line': b'writing entry points to visiontools_py.egg-info/entry_points.txt\n'}
+[5.180323] (visiontools_py) StdoutLine: {'line': b'writing requirements to visiontools_py.egg-info/requires.txt\n'}
+[5.180906] (visiontools_py) StdoutLine: {'line': b'writing top-level names to visiontools_py.egg-info/top_level.txt\n'}
+[5.188836] (visiontools_py) StdoutLine: {'line': b"reading manifest file 'visiontools_py.egg-info/SOURCES.txt'\n"}
+[5.194118] (visiontools_py) StdoutLine: {'line': b"writing manifest file 'visiontools_py.egg-info/SOURCES.txt'\n"}
+[5.200416] (visiontools_py) StdoutLine: {'line': b'running build_ext\n'}
+[5.201238] (visiontools_py) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)\n'}
+[5.205533] (visiontools_py) StdoutLine: {'line': b'Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py\n'}
+[5.206330] (visiontools_py) StdoutLine: {'line': b'Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py\n'}
+[5.207851] (visiontools_py) StdoutLine: {'line': b'\n'}
+[5.208729] (visiontools_py) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py\n'}
+[5.209593] (visiontools_py) StdoutLine: {'line': b'running symlink_data\n'}
+[5.236850] (-) TimerEvent: {}
+[5.337738] (-) TimerEvent: {}
+[5.340021] (visiontools_py) CommandEnded: {'returncode': 0}
+[5.402081] (visiontools_py) JobEnded: {'identifier': 'visiontools_py', 'rc': 0}
+[5.405342] (-) EventReactorShutdown: {}

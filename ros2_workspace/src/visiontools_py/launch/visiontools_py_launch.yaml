@@ -1,0 +1,23 @@
+launch:
+  - node:
+      pkg: visiontools_py
+      exec: camera
+      name: camera_node
+      output: screen
+      namespace: camera
+
+  - node:
+      pkg: topic_tools
+      exec: relay
+      name: image_relay_node
+      output: screen
+      namespace: camera
+      args: 
+        '/camera/image /camera/image_raw' 
+
+  - node:
+      pkg: image_proc
+      exec: image_proc
+      name: image_proc_node
+      output: screen
+      namespace: camera

@@ -1,2 +1,1 @@
-source;share/hardware_interface/environment/ament_prefix_path.sh
-source;share/hardware_interface/environment/path.sh
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/local_setup.dsv

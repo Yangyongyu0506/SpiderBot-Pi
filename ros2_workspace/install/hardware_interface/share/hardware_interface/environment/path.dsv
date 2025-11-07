@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/path.dsv

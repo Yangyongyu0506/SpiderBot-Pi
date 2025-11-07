@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target camera[0m
+[0.359s] [ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o[0m
+[25.328s] [100%] [32m[1mLinking CXX executable camera[0m
+[28.772s] [100%] Built target camera
+[28.825s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[28.880s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[28.918s] -- Install configuration: ""
+[28.923s] -- Execute custom install script
+[28.930s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera
+[28.937s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[28.941s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[28.946s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[28.948s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[28.950s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh
+[28.952s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[28.955s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash
+[28.957s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh
+[28.959s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[28.961s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[28.961s] -- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv
+[29.008s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[29.012s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[29.015s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[29.018s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml
+[29.027s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface

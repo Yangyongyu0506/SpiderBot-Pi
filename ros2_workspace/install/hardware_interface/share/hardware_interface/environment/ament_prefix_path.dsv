@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv

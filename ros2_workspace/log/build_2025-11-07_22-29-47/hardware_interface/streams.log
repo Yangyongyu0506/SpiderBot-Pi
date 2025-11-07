@@ -1,0 +1,101 @@
+[0.049s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+[0.321s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.021s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.114s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.383s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.404s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.445s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.810s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.822s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.316s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.498s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.519s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.900s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.902s] -- Configured cppcheck include dirs: 
+[3.903s] -- Configured cppcheck exclude dirs and/or files: 
+[3.908s] -- Added test 'lint_cmake' to check CMake code style
+[3.917s] -- Added test 'uncrustify' to check C / C++ code style
+[3.917s] -- Configured uncrustify additional arguments: 
+[3.925s] -- Added test 'xmllint' to check XML markup files
+[3.935s] -- Configuring done
+[4.101s] -- Generating done
+[4.128s] -- Build files have been written to: /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[4.172s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+[4.186s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[4.382s] [35m[1mConsolidate compiler generated dependencies of target camera[0m
+[4.560s] [ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o[0m
+[21.129s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.131s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.133s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.137s]                  from [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:3[m[K:
+[21.138s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[21.138s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.139s]    29 |        RCLCPP_INFO(this->get_logger(), [01;35m[K"Camera opened (%dx%d)"[m[K, [32m[Kcap_.get(cv::CAP_PROP_FRAME_WIDTH)[m[K, cap_.get(cv::CAP_PROP_FRAME_HEIGHT));
+[21.139s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.140s]       |                                                                         [32m[K|[m[K
+[21.140s]       |                                                                         [32m[Kdouble[m[K
+[21.141s] 
+[21.141s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.142s]    29 | O(this->get_logger(), "Camera opened ([01;36m[K%d[m[Kx%d)", cap_.get(cv::CAP_PROP_FRAME_WIDTH), cap_.get(cv::CAP_PROP_FRAME_HEIGHT));
+[21.142s]       |                                       [01;36m[K~^[m[K
+[21.143s]       |                                        [01;36m[K|[m[K
+[21.143s]       |                                        [01;36m[Kint[m[K
+[21.144s]       |                                       [32m[K%f[m[K
+[21.144s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.146s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.146s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.147s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.147s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.150s]                  from [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:3[m[K:
+[21.150s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.150s]    29 |        RCLCPP_INFO(this->get_logger(), [01;35m[K"Camera opened (%dx%d)"[m[K, cap_.get(cv::CAP_PROP_FRAME_WIDTH), [32m[Kcap_.get(cv::CAP_PROP_FRAME_HEIGHT)[m[K);
+[21.151s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K                                      [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.152s]       |                                                                                                             [32m[K|[m[K
+[21.153s]       |                                                                                                             [32m[Kdouble[m[K
+[21.153s] 
+[21.154s] [01m[K/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/src/camera.cpp:29:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.154s]    29 | his->get_logger(), "Camera opened (%dx[01;36m[K%d[m[K)", cap_.get(cv::CAP_PROP_FRAME_WIDTH), cap_.get(cv::CAP_PROP_FRAME_HEIGHT));
+[21.155s]       |                                       [01;36m[K~^[m[K
+[21.155s]       |                                        [01;36m[K|[m[K
+[21.155s]       |                                        [01;36m[Kint[m[K
+[21.156s]       |                                       [32m[K%f[m[K
+[31.241s] [100%] [32m[1mLinking CXX executable camera[0m
+[34.535s] [100%] Built target camera
+[34.584s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[34.640s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[34.676s] -- Install configuration: ""
+[34.679s] -- Execute custom install script
+[34.683s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera
+[34.686s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[34.688s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[34.690s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[34.693s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[34.695s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh
+[34.697s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[34.698s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash
+[34.700s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh
+[34.702s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[34.703s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[34.704s] -- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv
+[34.746s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[34.748s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[34.750s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[34.751s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml
+[34.759s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface

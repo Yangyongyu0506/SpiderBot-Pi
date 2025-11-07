@@ -1,0 +1,4 @@
+[console_scripts]
+camera = visiontools_py.camera:main
+camera_info = visiontools_py.camera_info:main
+

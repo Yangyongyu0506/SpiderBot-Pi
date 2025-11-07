@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating visiontools_py.egg-info
+writing visiontools_py.egg-info/PKG-INFO
+writing dependency_links to visiontools_py.egg-info/dependency_links.txt
+writing entry points to visiontools_py.egg-info/entry_points.txt
+writing requirements to visiontools_py.egg-info/requires.txt
+writing top-level names to visiontools_py.egg-info/top_level.txt
+writing manifest file 'visiontools_py.egg-info/SOURCES.txt'
+reading manifest file 'visiontools_py.egg-info/SOURCES.txt'
+writing manifest file 'visiontools_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)
+Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+
+Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py
+running symlink_data
+creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/ament_index
+creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/ament_index/resource_index
+creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/ament_index/resource_index/packages
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/resource/visiontools_py -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/ament_index/resource_index/packages
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/package.xml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py
+creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/config
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/config/ost.yaml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/config
