@@ -1,0 +1,29 @@
+launch:
+  - node:
+      pkg: image_proc
+      exec: image_proc
+      name: image_proc_node
+      output: screen
+      namespace: camera_node
+
+  - node:
+      pkg: camera_ros
+      exec: camera_node
+      name: camera_node
+      output: screen
+      param:
+        - name: camera
+          value: 0
+        - name: frame_id
+          value: camera_frame
+        - name: camera_info_url
+          value: package://visiontools_py/config/ost.yaml
+        - name: width
+          value: 640
+        - name: height
+          value: 480
+        - name: format
+          value: mjpeg
+      remap:
+        - from: /camera_node/image_raw
+          to: /camera_node/image

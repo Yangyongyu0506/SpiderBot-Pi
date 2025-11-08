@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing visiontools_py.egg-info/PKG-INFO
+writing dependency_links to visiontools_py.egg-info/dependency_links.txt
+writing entry points to visiontools_py.egg-info/entry_points.txt
+writing requirements to visiontools_py.egg-info/requires.txt
+writing top-level names to visiontools_py.egg-info/top_level.txt
+reading manifest file 'visiontools_py.egg-info/SOURCES.txt'
+writing manifest file 'visiontools_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)
+Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+
+Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py
+running symlink_data
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/visiontools_py_launch.yaml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/launch
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/camera_launch.yaml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/launch
+error: can't copy '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/visiontools_launch.yaml': doesn't exist or not a regular file

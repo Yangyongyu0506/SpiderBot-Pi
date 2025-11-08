@@ -9,10 +9,10 @@ from cv_bridge import CvBridge
 
 class CameraWithInfoNode(Node):
     def __init__(self):
-        super().__init__('camera_info_node')
+        super().__init__('camera_node')
         self.declare_parameter('camera_info_url', 'config/ost.yaml')
         self.declare_parameter('camera_index', 0)
-        self.declare_parameter('timer_period', 0.05)
+        self.declare_parameter('timer_period', 0.1)
         self.declare_parameter('camera_frame_id', 'camera_frame')
         config_path_rel = self.get_parameter('camera_info_url').get_parameter_value().string_value
         package_share_directory = get_package_share_directory('visiontools_py')

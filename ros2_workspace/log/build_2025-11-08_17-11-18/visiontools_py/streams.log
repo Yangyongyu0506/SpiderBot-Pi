@@ -1,0 +1,21 @@
+[3.087s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data
+[4.283s] running develop
+[5.066s] running egg_info
+[5.067s] writing visiontools_py.egg-info/PKG-INFO
+[5.068s] writing dependency_links to visiontools_py.egg-info/dependency_links.txt
+[5.069s] writing entry points to visiontools_py.egg-info/entry_points.txt
+[5.070s] writing requirements to visiontools_py.egg-info/requires.txt
+[5.070s] writing top-level names to visiontools_py.egg-info/top_level.txt
+[5.079s] reading manifest file 'visiontools_py.egg-info/SOURCES.txt'
+[5.083s] writing manifest file 'visiontools_py.egg-info/SOURCES.txt'
+[5.089s] running build_ext
+[5.090s] Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)
+[5.094s] Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+[5.095s] Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+[5.096s] 
+[5.097s] Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py
+[5.097s] running symlink_data
+[5.098s] symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/visiontools_py_launch.yaml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/launch
+[5.099s] symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/camera_launch.yaml -> /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/launch
+[5.100s] error: can't copy '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/launch/visiontools_launch.yaml': doesn't exist or not a regular file
+[5.232s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py' returned '1': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data

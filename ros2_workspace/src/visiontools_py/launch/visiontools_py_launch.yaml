@@ -6,14 +6,14 @@ launch:
       output: screen
       namespace: camera
 
-  - node:
-      pkg: topic_tools
-      exec: relay
-      name: image_relay_node
-      output: screen
-      namespace: camera
-      args: 
-        '/camera/image /camera/image_raw' 
+  # - node:
+  #     pkg: topic_tools
+  #     exec: relay
+  #     name: image_relay_node
+  #     output: screen
+  #     namespace: camera
+  #     args: 
+  #       '/camera/image /camera/image_raw' 
 
   - node:
       pkg: image_proc

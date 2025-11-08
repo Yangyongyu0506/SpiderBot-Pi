@@ -2,7 +2,8 @@ package.xml
 setup.cfg
 setup.py
 config/ost.yaml
-launch/visiontools_launch.yaml
+launch/camera_launch.yaml
+launch/visiontools_py_launch.yaml
 resource/visiontools_py
 visiontools_py/__init__.py
 visiontools_py/camera.py
