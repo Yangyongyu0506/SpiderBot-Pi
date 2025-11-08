@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hardware_interface/msg/BuzzerDuty.msg
+// generated code does not contain a copyright notice
+
+
+module hardware_interface {
+  module msg {
+    struct BuzzerDuty {
+      @verbatim (language="comment", text=
+        "0-255")
+      uint8 duty_cycle;
+    };
+  };
+};

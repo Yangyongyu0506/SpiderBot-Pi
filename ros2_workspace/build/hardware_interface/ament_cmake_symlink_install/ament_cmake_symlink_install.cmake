@@ -313,6 +313,60 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "camera" "DESTINATION" "lib/hardware_interface")
 include("/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hardware_interface" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/hardware_interface" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/hardware_interface/environment")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/hardware_interface/environment")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hardware_interface/environment")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/hardware_interface/environment")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_fastrtps_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_fastrtps_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_fastrtps_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_fastrtps_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_introspection_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_introspection_c/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_introspection_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_introspection_cpp/hardware_interface/" "DESTINATION" "include/hardware_interface/hardware_interface" "PATTERN" "*.hpp")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hardware_interface/environment")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/hardware_interface/environment")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hardware_interface/environment")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/hardware_interface/environment")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_python/hardware_interface/hardware_interface.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_python/hardware_interface/hardware_interface.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_py/hardware_interface/" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" DIRECTORY "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_py/hardware_interface/" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "hardware_interface__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface")
+include("/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "hardware_interface__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface")
+include("/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "hardware_interface__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/hardware_interface")
+include("/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_adapter/hardware_interface/msg/BuzzerDuty.idl" "DESTINATION" "share/hardware_interface/msg")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_adapter/hardware_interface/msg/BuzzerDuty.idl" "DESTINATION" "share/hardware_interface/msg")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/msg/BuzzerDuty.msg" "DESTINATION" "share/hardware_interface/msg")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface/msg/BuzzerDuty.msg" "DESTINATION" "share/hardware_interface/msg")
+
 # install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hardware_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hardware_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -348,6 +402,27 @@ ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hard
 
 # install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/packages/hardware_interface" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_index/share/ament_index/resource_index/packages/hardware_interface" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+
+# install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
+ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/hardware_interface/cmake")
 
 # install(FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_core/hardware_interfaceConfig.cmake" "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_core/hardware_interfaceConfig-version.cmake" "DESTINATION" "share/hardware_interface/cmake")
 ament_cmake_symlink_install_files("/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface" FILES "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_core/hardware_interfaceConfig.cmake" "/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/ament_cmake_core/hardware_interfaceConfig-version.cmake" "DESTINATION" "share/hardware_interface/cmake")

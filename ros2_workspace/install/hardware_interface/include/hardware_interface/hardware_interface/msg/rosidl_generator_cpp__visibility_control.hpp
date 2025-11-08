@@ -1,0 +1,1 @@
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_cpp/hardware_interface/msg/rosidl_generator_cpp__visibility_control.hpp

@@ -1,0 +1,1 @@
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_generator_py/hardware_interface/msg/_buzzer_duty.py

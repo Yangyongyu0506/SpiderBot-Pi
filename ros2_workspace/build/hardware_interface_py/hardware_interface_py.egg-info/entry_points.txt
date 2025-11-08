@@ -1,3 +1,4 @@
 [console_scripts]
+buzzer = hardware_interface_py.buzzer:main
 camera = hardware_interface_py.camera:main
 

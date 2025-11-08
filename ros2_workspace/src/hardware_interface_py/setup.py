@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'camera = hardware_interface_py.camera:main',
+            'buzzer = hardware_interface_py.buzzer:main',
         ],
     },
 )

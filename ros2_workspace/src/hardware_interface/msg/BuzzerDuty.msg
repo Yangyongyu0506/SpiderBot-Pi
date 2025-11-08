@@ -1,0 +1,1 @@
+uint8 duty_cycle # 0-255

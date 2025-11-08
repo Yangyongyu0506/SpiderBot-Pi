@@ -1,0 +1,1 @@
+/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface/rosidl_typesupport_introspection_cpp/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_cpp.hpp

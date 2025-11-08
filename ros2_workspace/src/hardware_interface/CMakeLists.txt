@@ -14,6 +14,7 @@ find_package(rclcpp REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 add_executable(camera src/camera.cpp)
 ament_target_dependencies(camera rclcpp OpenCV sensor_msgs cv_bridge)
@@ -21,6 +22,10 @@ ament_target_dependencies(camera rclcpp OpenCV sensor_msgs cv_bridge)
 install(TARGETS
   camera
   DESTINATION lib/${PROJECT_NAME}
+)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BuzzerDuty.msg"
 )
 
 if(BUILD_TESTING)

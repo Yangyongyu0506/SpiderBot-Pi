@@ -1,0 +1,671 @@
+[0.000000] (-) TimerEvent: {}
+[0.001605] (-) JobUnselected: {'identifier': 'hardware_interface_py'}
+[0.002235] (-) JobUnselected: {'identifier': 'visiontools_py'}
+[0.002762] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict()}
+[0.002955] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.069697] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.080827] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'build'}
+[0.084729] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', '--', '-j4', '-l4'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/yangy'), ('USER', 'yangy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100675] (-) TimerEvent: {}
+[0.202566] (-) TimerEvent: {}
+[0.303513] (-) TimerEvent: {}
+[0.404392] (-) TimerEvent: {}
+[0.505381] (-) TimerEvent: {}
+[0.606153] (-) TimerEvent: {}
+[0.636544] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.706293] (-) TimerEvent: {}
+[0.807067] (-) TimerEvent: {}
+[0.907986] (-) TimerEvent: {}
+[1.008744] (-) TimerEvent: {}
+[1.109487] (-) TimerEvent: {}
+[1.210216] (-) TimerEvent: {}
+[1.307064] (hardware_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.310406] (-) TimerEvent: {}
+[1.387946] (hardware_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.410590] (-) TimerEvent: {}
+[1.511395] (-) TimerEvent: {}
+[1.612231] (-) TimerEvent: {}
+[1.634362] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.650258] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.691153] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.712353] (-) TimerEvent: {}
+[1.750170] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.812552] (-) TimerEvent: {}
+[1.820849] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.912789] (-) TimerEvent: {}
+[2.015883] (-) TimerEvent: {}
+[2.089248] (hardware_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.100751] (hardware_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.116069] (-) TimerEvent: {}
+[2.216830] (-) TimerEvent: {}
+[2.317554] (-) TimerEvent: {}
+[2.418283] (-) TimerEvent: {}
+[2.518968] (-) TimerEvent: {}
+[2.619685] (-) TimerEvent: {}
+[2.720505] (-) TimerEvent: {}
+[2.821412] (-) TimerEvent: {}
+[2.922221] (-) TimerEvent: {}
+[3.022979] (-) TimerEvent: {}
+[3.123751] (-) TimerEvent: {}
+[3.145863] (hardware_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.223970] (-) TimerEvent: {}
+[3.324865] (-) TimerEvent: {}
+[3.425852] (-) TimerEvent: {}
+[3.526854] (-) TimerEvent: {}
+[3.540685] (hardware_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.627047] (-) TimerEvent: {}
+[3.716620] (hardware_interface) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.727242] (-) TimerEvent: {}
+[3.753657] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.827477] (-) TimerEvent: {}
+[3.928323] (-) TimerEvent: {}
+[4.029027] (-) TimerEvent: {}
+[4.129778] (-) TimerEvent: {}
+[4.230527] (-) TimerEvent: {}
+[4.331272] (-) TimerEvent: {}
+[4.432098] (-) TimerEvent: {}
+[4.533027] (-) TimerEvent: {}
+[4.633757] (-) TimerEvent: {}
+[4.734538] (-) TimerEvent: {}
+[4.835354] (-) TimerEvent: {}
+[4.936062] (-) TimerEvent: {}
+[5.036868] (-) TimerEvent: {}
+[5.047210] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.137082] (-) TimerEvent: {}
+[5.237820] (-) TimerEvent: {}
+[5.338599] (-) TimerEvent: {}
+[5.439411] (-) TimerEvent: {}
+[5.540288] (-) TimerEvent: {}
+[5.640992] (-) TimerEvent: {}
+[5.741683] (-) TimerEvent: {}
+[5.842468] (-) TimerEvent: {}
+[5.943193] (-) TimerEvent: {}
+[6.043899] (-) TimerEvent: {}
+[6.144664] (-) TimerEvent: {}
+[6.245364] (-) TimerEvent: {}
+[6.346125] (-) TimerEvent: {}
+[6.446907] (-) TimerEvent: {}
+[6.547620] (-) TimerEvent: {}
+[6.602613] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.647883] (-) TimerEvent: {}
+[6.748673] (-) TimerEvent: {}
+[6.849541] (-) TimerEvent: {}
+[6.950661] (-) TimerEvent: {}
+[7.051513] (-) TimerEvent: {}
+[7.152593] (-) TimerEvent: {}
+[7.178289] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.252766] (-) TimerEvent: {}
+[7.294350] (hardware_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.323505] (hardware_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.352957] (-) TimerEvent: {}
+[7.453672] (-) TimerEvent: {}
+[7.466949] (hardware_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.468392] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.469222] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.470299] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.554074] (-) TimerEvent: {}
+[7.570243] (hardware_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.654208] (-) TimerEvent: {}
+[7.747144] (hardware_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.754426] (-) TimerEvent: {}
+[7.854364] (hardware_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.855003] (-) TimerEvent: {}
+[7.856602] (hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.857212] (hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.869337] (hardware_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.884431] (hardware_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.885075] (hardware_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.887580] (hardware_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.918245] (hardware_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.955220] (-) TimerEvent: {}
+[8.055949] (-) TimerEvent: {}
+[8.156905] (-) TimerEvent: {}
+[8.251175] (hardware_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[8.257143] (-) TimerEvent: {}
+[8.318772] (hardware_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface\n'}
+[8.357464] (-) TimerEvent: {}
+[8.470132] (-) TimerEvent: {}
+[8.509769] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[8.526338] (hardware_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.571565] (-) TimerEvent: {}
+[8.615304] (hardware_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.667019] (hardware_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_hardware_interface\n'}
+[8.671780] (-) TimerEvent: {}
+[8.774344] (-) TimerEvent: {}
+[8.849461] (hardware_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o\x1b[0m\n'}
+[8.874544] (-) TimerEvent: {}
+[8.980673] (-) TimerEvent: {}
+[9.086085] (-) TimerEvent: {}
+[9.186877] (-) TimerEvent: {}
+[9.290100] (-) TimerEvent: {}
+[9.392826] (-) TimerEvent: {}
+[9.496180] (-) TimerEvent: {}
+[9.598156] (-) TimerEvent: {}
+[9.702076] (-) TimerEvent: {}
+[9.802928] (-) TimerEvent: {}
+[9.903998] (-) TimerEvent: {}
+[10.005381] (-) TimerEvent: {}
+[10.107037] (-) TimerEvent: {}
+[10.208231] (-) TimerEvent: {}
+[10.309393] (-) TimerEvent: {}
+[10.410772] (-) TimerEvent: {}
+[10.515239] (-) TimerEvent: {}
+[10.618633] (-) TimerEvent: {}
+[10.701815] (hardware_interface) StdoutLine: {'line': b'[  9%] Built target hardware_interface__cpp\n'}
+[10.717196] (hardware_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_generator_c.dir/rosidl_generator_c/hardware_interface/msg/detail/buzzer_duty__functions.c.o\x1b[0m\n'}
+[10.720253] (-) TimerEvent: {}
+[10.748293] (hardware_interface) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.794628] (hardware_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.798564] (hardware_interface) StdoutLine: {'line': b'creating hardware_interface.egg-info\n'}
+[10.801505] (hardware_interface) StdoutLine: {'line': b'writing hardware_interface.egg-info/PKG-INFO\n'}
+[10.804273] (hardware_interface) StdoutLine: {'line': b'writing dependency_links to hardware_interface.egg-info/dependency_links.txt\n'}
+[10.806377] (hardware_interface) StdoutLine: {'line': b'writing top-level names to hardware_interface.egg-info/top_level.txt\n'}
+[10.807344] (hardware_interface) StdoutLine: {'line': b"writing manifest file 'hardware_interface.egg-info/SOURCES.txt'\n"}
+[10.820437] (-) TimerEvent: {}
+[10.824093] (hardware_interface) StdoutLine: {'line': b"reading manifest file 'hardware_interface.egg-info/SOURCES.txt'\n"}
+[10.828253] (hardware_interface) StdoutLine: {'line': b"writing manifest file 'hardware_interface.egg-info/SOURCES.txt'\n"}
+[10.920686] (-) TimerEvent: {}
+[10.984117] (hardware_interface) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_hardware_interface_egg\n'}
+[11.020977] (-) TimerEvent: {}
+[11.046587] (hardware_interface) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.121198] (-) TimerEvent: {}
+[11.223026] (-) TimerEvent: {}
+[11.324655] (-) TimerEvent: {}
+[11.426355] (-) TimerEvent: {}
+[11.528324] (-) TimerEvent: {}
+[11.618952] (hardware_interface) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libhardware_interface__rosidl_generator_c.so\x1b[0m\n'}
+[11.628519] (-) TimerEvent: {}
+[11.730816] (-) TimerEvent: {}
+[11.831909] (-) TimerEvent: {}
+[11.919079] (hardware_interface) StdoutLine: {'line': b'[ 21%] Built target hardware_interface__rosidl_generator_c\n'}
+[11.932183] (-) TimerEvent: {}
+[11.962383] (hardware_interface) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/hardware_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hardware_interface/msg/buzzer_duty__type_support.cpp.o\x1b[0m\n'}
+[12.005851] (hardware_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.032420] (-) TimerEvent: {}
+[12.133305] (-) TimerEvent: {}
+[12.235578] (-) TimerEvent: {}
+[12.338069] (-) TimerEvent: {}
+[12.442380] (-) TimerEvent: {}
+[12.484953] (hardware_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hardware_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hardware_interface/msg/detail/dds_fastrtps/buzzer_duty__type_support.cpp.o\x1b[0m\n'}
+[12.544293] (-) TimerEvent: {}
+[12.646954] (-) TimerEvent: {}
+[12.748861] (-) TimerEvent: {}
+[12.851037] (-) TimerEvent: {}
+[12.953259] (-) TimerEvent: {}
+[13.056173] (-) TimerEvent: {}
+[13.159217] (-) TimerEvent: {}
+[13.262651] (-) TimerEvent: {}
+[13.334500] (hardware_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hardware_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hardware_interface/msg/detail/buzzer_duty__type_support.cpp.o\x1b[0m\n'}
+[13.362955] (-) TimerEvent: {}
+[13.465744] (-) TimerEvent: {}
+[13.568450] (-) TimerEvent: {}
+[13.671727] (-) TimerEvent: {}
+[13.774586] (-) TimerEvent: {}
+[13.877195] (-) TimerEvent: {}
+[13.980320] (-) TimerEvent: {}
+[14.027436] (hardware_interface) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.080552] (-) TimerEvent: {}
+[14.182296] (-) TimerEvent: {}
+[14.279353] (hardware_interface) StdoutLine: {'line': b'[ 36%] Built target hardware_interface__rosidl_typesupport_cpp\n'}
+[14.282575] (-) TimerEvent: {}
+[14.338894] (hardware_interface) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.382794] (-) TimerEvent: {}
+[14.483892] (-) TimerEvent: {}
+[14.585105] (-) TimerEvent: {}
+[14.687107] (-) TimerEvent: {}
+[14.790372] (-) TimerEvent: {}
+[14.891352] (-) TimerEvent: {}
+[14.996457] (-) TimerEvent: {}
+[15.070229] (hardware_interface) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.096790] (-) TimerEvent: {}
+[15.198098] (-) TimerEvent: {}
+[15.299581] (-) TimerEvent: {}
+[15.401623] (-) TimerEvent: {}
+[15.503440] (-) TimerEvent: {}
+[15.508955] (hardware_interface) StdoutLine: {'line': b'[ 42%] Built target hardware_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[15.563370] (hardware_interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.603659] (-) TimerEvent: {}
+[15.705127] (-) TimerEvent: {}
+[15.806890] (-) TimerEvent: {}
+[15.909447] (-) TimerEvent: {}
+[16.011714] (-) TimerEvent: {}
+[16.113085] (-) TimerEvent: {}
+[16.120891] (hardware_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/hardware_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hardware_interface/msg/detail/buzzer_duty__type_support_c.cpp.o\x1b[0m\n'}
+[16.213378] (-) TimerEvent: {}
+[16.238032] (hardware_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.313567] (-) TimerEvent: {}
+[16.414527] (-) TimerEvent: {}
+[16.452881] (hardware_interface) StdoutLine: {'line': b'[ 51%] Built target hardware_interface__rosidl_typesupport_introspection_cpp\n'}
+[16.502954] (hardware_interface) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.514719] (-) TimerEvent: {}
+[16.615662] (-) TimerEvent: {}
+[16.716554] (-) TimerEvent: {}
+[16.817528] (-) TimerEvent: {}
+[16.918960] (-) TimerEvent: {}
+[17.047909] (-) TimerEvent: {}
+[17.152430] (-) TimerEvent: {}
+[17.256617] (-) TimerEvent: {}
+[17.313061] (hardware_interface) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hardware_interface/msg/detail/buzzer_duty__type_support.c.o\x1b[0m\n'}
+[17.356871] (-) TimerEvent: {}
+[17.460074] (-) TimerEvent: {}
+[17.539306] (hardware_interface) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libhardware_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.560372] (-) TimerEvent: {}
+[17.661344] (-) TimerEvent: {}
+[17.737678] (hardware_interface) StdoutLine: {'line': b'[ 60%] Built target hardware_interface__rosidl_typesupport_introspection_c\n'}
+[17.761569] (-) TimerEvent: {}
+[17.862610] (-) TimerEvent: {}
+[17.965318] (-) TimerEvent: {}
+[18.066226] (-) TimerEvent: {}
+[18.167306] (-) TimerEvent: {}
+[18.186973] (hardware_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/hardware_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/hardware_interface/msg/buzzer_duty__type_support.cpp.o\x1b[0m\n'}
+[18.267529] (-) TimerEvent: {}
+[18.359942] (hardware_interface) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.367727] (-) TimerEvent: {}
+[18.469097] (-) TimerEvent: {}
+[18.487648] (hardware_interface) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.561443] (hardware_interface) StdoutLine: {'line': b'[ 69%] Built target hardware_interface__rosidl_typesupport_c\n'}
+[18.569391] (-) TimerEvent: {}
+[18.670986] (-) TimerEvent: {}
+[18.772441] (-) TimerEvent: {}
+[18.849542] (hardware_interface) StdoutLine: {'line': b'[ 69%] Built target hardware_interface__rosidl_typesupport_fastrtps_c\n'}
+[18.872665] (-) TimerEvent: {}
+[18.940233] (hardware_interface) StdoutLine: {'line': b'[ 69%] Built target hardware_interface\n'}
+[18.973008] (-) TimerEvent: {}
+[19.026790] (hardware_interface) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.073224] (-) TimerEvent: {}
+[19.174103] (-) TimerEvent: {}
+[19.275145] (-) TimerEvent: {}
+[19.376020] (-) TimerEvent: {}
+[19.476915] (-) TimerEvent: {}
+[19.577830] (-) TimerEvent: {}
+[19.678783] (-) TimerEvent: {}
+[19.779640] (-) TimerEvent: {}
+[19.883571] (-) TimerEvent: {}
+[19.984546] (-) TimerEvent: {}
+[20.085357] (-) TimerEvent: {}
+[20.186274] (-) TimerEvent: {}
+[20.287149] (-) TimerEvent: {}
+[20.388092] (-) TimerEvent: {}
+[20.488993] (-) TimerEvent: {}
+[20.591661] (-) TimerEvent: {}
+[20.610840] (hardware_interface) StdoutLine: {'line': b'[ 72%] Built target hardware_interface__py\n'}
+[20.691905] (-) TimerEvent: {}
+[20.696821] (hardware_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_generator_py.dir/rosidl_generator_py/hardware_interface/msg/_buzzer_duty_s.c.o\x1b[0m\n'}
+[20.792154] (-) TimerEvent: {}
+[20.893006] (-) TimerEvent: {}
+[20.994027] (-) TimerEvent: {}
+[21.095011] (-) TimerEvent: {}
+[21.195941] (-) TimerEvent: {}
+[21.296984] (-) TimerEvent: {}
+[21.369214] (hardware_interface) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hardware_interface/libhardware_interface__rosidl_generator_py.so\x1b[0m\n'}
+[21.397229] (-) TimerEvent: {}
+[21.498220] (-) TimerEvent: {}
+[21.571935] (hardware_interface) StdoutLine: {'line': b'[ 78%] Built target hardware_interface__rosidl_generator_py\n'}
+[21.598448] (-) TimerEvent: {}
+[21.671505] (hardware_interface) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.683915] (hardware_interface) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.694750] (hardware_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hardware_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.698697] (-) TimerEvent: {}
+[21.800311] (-) TimerEvent: {}
+[21.901633] (-) TimerEvent: {}
+[22.003417] (-) TimerEvent: {}
+[22.104386] (-) TimerEvent: {}
+[22.205227] (-) TimerEvent: {}
+[22.281498] (hardware_interface) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.305540] (-) TimerEvent: {}
+[22.316688] (hardware_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.380480] (hardware_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.405831] (-) TimerEvent: {}
+[22.491271] (hardware_interface) StdoutLine: {'line': b'[ 96%] Built target hardware_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.506216] (-) TimerEvent: {}
+[22.512314] (hardware_interface) StdoutLine: {'line': b'[ 96%] Built target hardware_interface__rosidl_typesupport_c__pyext\n'}
+[22.603406] (hardware_interface) StdoutLine: {'line': b'[ 96%] Built target hardware_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[22.606379] (-) TimerEvent: {}
+[22.707149] (-) TimerEvent: {}
+[22.808089] (-) TimerEvent: {}
+[22.908958] (-) TimerEvent: {}
+[23.009864] (-) TimerEvent: {}
+[23.110950] (-) TimerEvent: {}
+[23.211753] (-) TimerEvent: {}
+[23.312554] (-) TimerEvent: {}
+[23.413425] (-) TimerEvent: {}
+[23.514341] (-) TimerEvent: {}
+[23.615155] (-) TimerEvent: {}
+[23.716027] (-) TimerEvent: {}
+[23.816876] (-) TimerEvent: {}
+[23.917675] (-) TimerEvent: {}
+[24.018647] (-) TimerEvent: {}
+[24.119439] (-) TimerEvent: {}
+[24.220258] (-) TimerEvent: {}
+[24.321088] (-) TimerEvent: {}
+[24.421964] (-) TimerEvent: {}
+[24.522777] (-) TimerEvent: {}
+[24.623637] (-) TimerEvent: {}
+[24.724449] (-) TimerEvent: {}
+[24.825275] (-) TimerEvent: {}
+[24.926200] (-) TimerEvent: {}
+[25.026983] (-) TimerEvent: {}
+[25.127805] (-) TimerEvent: {}
+[25.228631] (-) TimerEvent: {}
+[25.329556] (-) TimerEvent: {}
+[25.430691] (-) TimerEvent: {}
+[25.531622] (-) TimerEvent: {}
+[25.632525] (-) TimerEvent: {}
+[25.733327] (-) TimerEvent: {}
+[25.834179] (-) TimerEvent: {}
+[25.934987] (-) TimerEvent: {}
+[26.035767] (-) TimerEvent: {}
+[26.136559] (-) TimerEvent: {}
+[26.237405] (-) TimerEvent: {}
+[26.338247] (-) TimerEvent: {}
+[26.439082] (-) TimerEvent: {}
+[26.539955] (-) TimerEvent: {}
+[26.640966] (-) TimerEvent: {}
+[26.741878] (-) TimerEvent: {}
+[26.842829] (-) TimerEvent: {}
+[26.943628] (-) TimerEvent: {}
+[27.044471] (-) TimerEvent: {}
+[27.145389] (-) TimerEvent: {}
+[27.246260] (-) TimerEvent: {}
+[27.347046] (-) TimerEvent: {}
+[27.447856] (-) TimerEvent: {}
+[27.548685] (-) TimerEvent: {}
+[27.649534] (-) TimerEvent: {}
+[27.750392] (-) TimerEvent: {}
+[27.851180] (-) TimerEvent: {}
+[27.951981] (-) TimerEvent: {}
+[28.052787] (-) TimerEvent: {}
+[28.153601] (-) TimerEvent: {}
+[28.254433] (-) TimerEvent: {}
+[28.355274] (-) TimerEvent: {}
+[28.456161] (-) TimerEvent: {}
+[28.557079] (-) TimerEvent: {}
+[28.657947] (-) TimerEvent: {}
+[28.758758] (-) TimerEvent: {}
+[28.859567] (-) TimerEvent: {}
+[28.960358] (-) TimerEvent: {}
+[29.061210] (-) TimerEvent: {}
+[29.162060] (-) TimerEvent: {}
+[29.262839] (-) TimerEvent: {}
+[29.363655] (-) TimerEvent: {}
+[29.464428] (-) TimerEvent: {}
+[29.565208] (-) TimerEvent: {}
+[29.666040] (-) TimerEvent: {}
+[29.766836] (-) TimerEvent: {}
+[29.867951] (-) TimerEvent: {}
+[29.968830] (-) TimerEvent: {}
+[30.069713] (-) TimerEvent: {}
+[30.170523] (-) TimerEvent: {}
+[30.271275] (-) TimerEvent: {}
+[30.372137] (-) TimerEvent: {}
+[30.472917] (-) TimerEvent: {}
+[30.573654] (-) TimerEvent: {}
+[30.674498] (-) TimerEvent: {}
+[30.775328] (-) TimerEvent: {}
+[30.876276] (-) TimerEvent: {}
+[30.977243] (-) TimerEvent: {}
+[31.078076] (-) TimerEvent: {}
+[31.178846] (-) TimerEvent: {}
+[31.279638] (-) TimerEvent: {}
+[31.380500] (-) TimerEvent: {}
+[31.481429] (-) TimerEvent: {}
+[31.582302] (-) TimerEvent: {}
+[31.683089] (-) TimerEvent: {}
+[31.784016] (-) TimerEvent: {}
+[31.884877] (-) TimerEvent: {}
+[31.985664] (-) TimerEvent: {}
+[32.086492] (-) TimerEvent: {}
+[32.187294] (-) TimerEvent: {}
+[32.288119] (-) TimerEvent: {}
+[32.389089] (-) TimerEvent: {}
+[32.490033] (-) TimerEvent: {}
+[32.590841] (-) TimerEvent: {}
+[32.691689] (-) TimerEvent: {}
+[32.792557] (-) TimerEvent: {}
+[32.893424] (-) TimerEvent: {}
+[32.994362] (-) TimerEvent: {}
+[33.095331] (-) TimerEvent: {}
+[33.196217] (-) TimerEvent: {}
+[33.297059] (-) TimerEvent: {}
+[33.397981] (-) TimerEvent: {}
+[33.498775] (-) TimerEvent: {}
+[33.599677] (-) TimerEvent: {}
+[33.700974] (-) TimerEvent: {}
+[33.801952] (-) TimerEvent: {}
+[33.902711] (-) TimerEvent: {}
+[34.003536] (-) TimerEvent: {}
+[34.104457] (-) TimerEvent: {}
+[34.205295] (-) TimerEvent: {}
+[34.306391] (-) TimerEvent: {}
+[34.407397] (-) TimerEvent: {}
+[34.508251] (-) TimerEvent: {}
+[34.609091] (-) TimerEvent: {}
+[34.710077] (-) TimerEvent: {}
+[34.811028] (-) TimerEvent: {}
+[34.911834] (-) TimerEvent: {}
+[35.012734] (-) TimerEvent: {}
+[35.113533] (-) TimerEvent: {}
+[35.214432] (-) TimerEvent: {}
+[35.315229] (-) TimerEvent: {}
+[35.415946] (-) TimerEvent: {}
+[35.516771] (-) TimerEvent: {}
+[35.617562] (-) TimerEvent: {}
+[35.718436] (-) TimerEvent: {}
+[35.819242] (-) TimerEvent: {}
+[35.920047] (-) TimerEvent: {}
+[36.020890] (-) TimerEvent: {}
+[36.121655] (-) TimerEvent: {}
+[36.222547] (-) TimerEvent: {}
+[36.323343] (-) TimerEvent: {}
+[36.424165] (-) TimerEvent: {}
+[36.525093] (-) TimerEvent: {}
+[36.626074] (-) TimerEvent: {}
+[36.726847] (-) TimerEvent: {}
+[36.827635] (-) TimerEvent: {}
+[36.928424] (-) TimerEvent: {}
+[37.029210] (-) TimerEvent: {}
+[37.130073] (-) TimerEvent: {}
+[37.230845] (-) TimerEvent: {}
+[37.331650] (-) TimerEvent: {}
+[37.432460] (-) TimerEvent: {}
+[37.533269] (-) TimerEvent: {}
+[37.634156] (-) TimerEvent: {}
+[37.734968] (-) TimerEvent: {}
+[37.835934] (-) TimerEvent: {}
+[37.936735] (-) TimerEvent: {}
+[38.037552] (-) TimerEvent: {}
+[38.138476] (-) TimerEvent: {}
+[38.239213] (-) TimerEvent: {}
+[38.340116] (-) TimerEvent: {}
+[38.441424] (-) TimerEvent: {}
+[38.542883] (-) TimerEvent: {}
+[38.644224] (-) TimerEvent: {}
+[38.745248] (-) TimerEvent: {}
+[38.846100] (-) TimerEvent: {}
+[38.946841] (-) TimerEvent: {}
+[39.047610] (-) TimerEvent: {}
+[39.148378] (-) TimerEvent: {}
+[39.249215] (-) TimerEvent: {}
+[39.350371] (-) TimerEvent: {}
+[39.452212] (-) TimerEvent: {}
+[39.553135] (-) TimerEvent: {}
+[39.653949] (-) TimerEvent: {}
+[39.697984] (hardware_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera\x1b[0m\n'}
+[39.754073] (-) TimerEvent: {}
+[39.854852] (-) TimerEvent: {}
+[39.955681] (-) TimerEvent: {}
+[40.056614] (-) TimerEvent: {}
+[40.157543] (-) TimerEvent: {}
+[40.258422] (-) TimerEvent: {}
+[40.359351] (-) TimerEvent: {}
+[40.460288] (-) TimerEvent: {}
+[40.561453] (-) TimerEvent: {}
+[40.662991] (-) TimerEvent: {}
+[40.764136] (-) TimerEvent: {}
+[40.865084] (-) TimerEvent: {}
+[40.965977] (-) TimerEvent: {}
+[41.066989] (-) TimerEvent: {}
+[41.167876] (-) TimerEvent: {}
+[41.268833] (-) TimerEvent: {}
+[41.370008] (-) TimerEvent: {}
+[41.470908] (-) TimerEvent: {}
+[41.571811] (-) TimerEvent: {}
+[41.672680] (-) TimerEvent: {}
+[41.773759] (-) TimerEvent: {}
+[41.874720] (-) TimerEvent: {}
+[41.975701] (-) TimerEvent: {}
+[42.076666] (-) TimerEvent: {}
+[42.177749] (-) TimerEvent: {}
+[42.278936] (-) TimerEvent: {}
+[42.379795] (-) TimerEvent: {}
+[42.480666] (-) TimerEvent: {}
+[42.581602] (-) TimerEvent: {}
+[42.682746] (-) TimerEvent: {}
+[42.783451] (-) TimerEvent: {}
+[42.884250] (-) TimerEvent: {}
+[42.985111] (-) TimerEvent: {}
+[43.085856] (-) TimerEvent: {}
+[43.186729] (-) TimerEvent: {}
+[43.287755] (-) TimerEvent: {}
+[43.388710] (-) TimerEvent: {}
+[43.489553] (-) TimerEvent: {}
+[43.590401] (-) TimerEvent: {}
+[43.691259] (-) TimerEvent: {}
+[43.728809] (hardware_interface) StdoutLine: {'line': b'[100%] Built target camera\n'}
+[43.787663] (hardware_interface) CommandEnded: {'returncode': 0}
+[43.796007] (-) TimerEvent: {}
+[43.797250] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'install'}
+[43.844921] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/yangy'), ('USER', 'yangy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[43.896249] (-) TimerEvent: {}
+[43.901458] (hardware_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.908895] (hardware_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.912895] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera\n'}
+[43.918653] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/rosidl_interfaces/hardware_interface\n'}
+[43.965801] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.h\n'}
+[43.996445] (-) TimerEvent: {}
+[44.001935] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__functions.h\n'}
+[44.037028] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.h\n'}
+[44.070520] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.h\n'}
+[44.096735] (-) TimerEvent: {}
+[44.103871] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.143616] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.sh\n'}
+[44.181113] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.dsv\n'}
+[44.196949] (-) TimerEvent: {}
+[44.227033] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_c.h\n'}
+[44.261622] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.297163] (-) TimerEvent: {}
+[44.306148] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.hpp\n'}
+[44.342836] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__builder.hpp\n'}
+[44.376415] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.hpp\n'}
+[44.397409] (-) TimerEvent: {}
+[44.408352] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__traits.hpp\n'}
+[44.440467] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.hpp\n'}
+[44.471933] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[44.498096] (-) TimerEvent: {}
+[44.515926] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.554743] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[44.592847] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_c.h\n'}
+[44.598334] (-) TimerEvent: {}
+[44.629459] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.662005] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.697763] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.sh\n'}
+[44.698625] (-) TimerEvent: {}
+[44.731938] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.dsv\n'}
+[44.765150] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[44.798871] (-) TimerEvent: {}
+[44.800576] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[44.832651] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[44.864837] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[44.899054] (-) TimerEvent: {}
+[44.901182] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/__init__.py\n'}
+[44.932648] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_c.c\n'}
+[44.964511] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[44.995911] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[44.999234] (-) TimerEvent: {}
+[45.028304] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.062143] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.094663] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.099406] (-) TimerEvent: {}
+[45.127144] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/libhardware_interface__rosidl_generator_py.so\n'}
+[45.159536] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/__init__.py\n'}
+[45.191537] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty.py\n'}
+[45.199589] (-) TimerEvent: {}
+[45.223588] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty_s.c\n'}
+[45.262467] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.264842] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.267860] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[45.270498] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.idl\n'}
+[45.299813] (-) TimerEvent: {}
+[45.304006] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.msg\n'}
+[45.343226] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface\n'}
+[45.345627] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface\n'}
+[45.349396] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh\n'}
+[45.352530] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv\n'}
+[45.355327] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh\n'}
+[45.357228] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv\n'}
+[45.359107] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash\n'}
+[45.360947] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh\n'}
+[45.362801] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh\n'}
+[45.364718] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv\n'}
+[45.365528] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv\n'}
+[45.399971] (-) TimerEvent: {}
+[45.406350] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface\n'}
+[45.408265] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[45.454363] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.494978] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.500235] (-) TimerEvent: {}
+[45.530543] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.563114] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[45.595582] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.600472] (-) TimerEvent: {}
+[45.629646] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[45.667315] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake\n'}
+[45.668712] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake\n'}
+[45.670390] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml\n'}
+[45.674667] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_c.so\n'}
+[45.680087] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_c.so" to ""\n'}
+[45.680982] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[45.685369] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[45.686456] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[45.690627] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[45.691874] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_c.so\n'}
+[45.695366] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[45.696300] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_c.so\n'}
+[45.699335] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_c.so" to ""\n'}
+[45.700251] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[45.700855] (-) TimerEvent: {}
+[45.704428] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[45.706166] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_cpp.so\n'}
+[45.709956] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[45.801095] (-) TimerEvent: {}
+[45.902475] (-) TimerEvent: {}
+[45.991321] (hardware_interface) StdoutLine: {'line': b"Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface'...\n"}
+[45.992909] (hardware_interface) StdoutLine: {'line': b"Compiling '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/__init__.py'...\n"}
+[45.994379] (hardware_interface) StdoutLine: {'line': b"Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg'...\n"}
+[45.995818] (hardware_interface) StdoutLine: {'line': b"Compiling '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/__init__.py'...\n"}
+[45.997074] (hardware_interface) StdoutLine: {'line': b"Compiling '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty.py'...\n"}
+[46.002789] (-) TimerEvent: {}
+[46.018194] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_py.so\n'}
+[46.021184] (hardware_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_py.so" to ""\n'}
+[46.021809] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport.cmake\n'}
+[46.031533] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[46.035556] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[46.037976] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[46.041286] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cppExport.cmake\n'}
+[46.045143] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[46.047790] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[46.050737] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[46.053644] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[46.056557] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport.cmake\n'}
+[46.059308] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[46.061682] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[46.064053] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[46.066268] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport.cmake\n'}
+[46.068441] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[46.070560] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport.cmake\n'}
+[46.072769] (hardware_interface) StdoutLine: {'line': b'-- Installing: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[46.081371] (hardware_interface) CommandEnded: {'returncode': 0}
+[46.102886] (-) TimerEvent: {}
+[46.206113] (-) TimerEvent: {}
+[46.238382] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 0}
+[46.241279] (-) EventReactorShutdown: {}

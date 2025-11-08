@@ -1,0 +1,6 @@
+{
+  "package_name": "hardware_interface",
+  "non_idl_tuples": [
+    "/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface:msg/BuzzerDuty.msg"
+  ]
+}
