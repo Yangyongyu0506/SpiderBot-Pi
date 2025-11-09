@@ -11,6 +11,7 @@ setup.py
 hardware_interface_py/__init__.py
 hardware_interface_py/buzzer.py
 hardware_interface_py/camera.py
+hardware_interface_py/i2c.py
 hardware_interface_py.egg-info/PKG-INFO
 hardware_interface_py.egg-info/SOURCES.txt
 hardware_interface_py.egg-info/dependency_links.txt

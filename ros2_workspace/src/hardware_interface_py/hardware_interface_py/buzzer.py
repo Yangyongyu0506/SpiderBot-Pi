@@ -18,7 +18,7 @@ class BuzzerNode(Node):
     def buzzer_callback(self, msg):
         duty_cycle = msg.duty_cycle
         self.pwm.ChangeDutyCycle(duty_cycle * 100 / 255)
-        self.get_logger().info(f'Set buzzer volume to {duty_cycle / 255:.3f}%')
+        self.get_logger().debug(f'Set buzzer volume to {duty_cycle / 255:.3f}%')
 
     def destroy_node(self):
         self.pwm.stop()

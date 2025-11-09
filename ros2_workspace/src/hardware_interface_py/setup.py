@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'camera = hardware_interface_py.camera:main',
             'buzzer = hardware_interface_py.buzzer:main',
+            'i2c = hardware_interface_py.i2c:main',
         ],
     },
 )

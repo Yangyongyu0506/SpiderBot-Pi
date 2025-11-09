@@ -14,3 +14,14 @@ ros2 run camera_calibration cameracalibrator --size 11x8 --square 0.005 --ros-ar
 ```bash
 sudo usermod -aG dialout $USER
 ```
+- Completed the buzzer interface
+
+To scan all the i2c devices connected to the Raspberry Pi, run:
+```bash
+sudo apt-get install -y i2c-tools
+sudo i2cdetect -yra 1
+```
+If the output shows 77 and 68, it means both the sonar and the imu are OK.
+- Added i2c interface
+- Completed sonar distance measurement interface
+- Completed sonar led interface

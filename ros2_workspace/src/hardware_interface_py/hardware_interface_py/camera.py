@@ -15,6 +15,7 @@ class CameraNode(Node):
         self.cap = cv2.VideoCapture(cam_index, cv2.CAP_V4L2)
         self.bridge = CvBridge()
         self.timer = self.create_timer(cam_period, self.timer_callback)
+        self.get_logger().info('Camera node started.')
 
     def timer_callback(self):
         ret, frame = self.cap.read()
@@ -25,9 +26,9 @@ class CameraNode(Node):
             msg.height = frame.shape[0]
             msg.width = frame.shape[1]
             self.publisher_.publish(msg)
-            self.get_logger().info('Published image frame')
+            self.get_logger().debug('Published image frame')
         else:
-            self.get_logger().error('Failed to capture image')
+            self.get_logger().warn('Failed to capture image')
 
 def main():
     rclpy.init()
