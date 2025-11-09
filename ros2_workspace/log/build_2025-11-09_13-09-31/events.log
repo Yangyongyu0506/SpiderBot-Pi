@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001756] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.002275] (-) JobUnselected: {'identifier': 'sensor_debug'}
+[0.002411] (-) JobUnselected: {'identifier': 'visiontools_py'}
+[0.002607] (hardware_interface_py) JobQueued: {'identifier': 'hardware_interface_py', 'dependencies': OrderedDict([('hardware_interface', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface')])}
+[0.002978] (hardware_interface_py) JobStarted: {'identifier': 'hardware_interface_py'}
+[0.098669] (-) TimerEvent: {}
+[0.199940] (-) TimerEvent: {}
+[0.300741] (-) TimerEvent: {}
+[0.401487] (-) TimerEvent: {}
+[0.502176] (-) TimerEvent: {}
+[0.602896] (-) TimerEvent: {}
+[0.703556] (-) TimerEvent: {}
+[0.804212] (-) TimerEvent: {}
+[0.904868] (-) TimerEvent: {}
+[1.005523] (-) TimerEvent: {}
+[1.106250] (-) TimerEvent: {}
+[1.206927] (-) TimerEvent: {}
+[1.307695] (-) TimerEvent: {}
+[1.408781] (-) TimerEvent: {}
+[1.509576] (-) TimerEvent: {}
+[1.610288] (-) TimerEvent: {}
+[1.711014] (-) TimerEvent: {}
+[1.811719] (-) TimerEvent: {}
+[1.912551] (-) TimerEvent: {}
+[2.013218] (-) TimerEvent: {}
+[2.113940] (-) TimerEvent: {}
+[2.214643] (-) TimerEvent: {}
+[2.315316] (-) TimerEvent: {}
+[2.416055] (-) TimerEvent: {}
+[2.516746] (-) TimerEvent: {}
+[2.617397] (-) TimerEvent: {}
+[2.718138] (-) TimerEvent: {}
+[2.819060] (-) TimerEvent: {}
+[2.920035] (-) TimerEvent: {}
+[3.021331] (-) TimerEvent: {}
+[3.062197] (hardware_interface_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 52794 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-57f32e08-2bd7-4db1-9640-40ddcddeac2a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e-1/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ad94de8086.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'SSH_CONNECTION': '100.69.168.86 52794 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface'}, 'shell': False}
+[3.121475] (-) TimerEvent: {}
+[3.222220] (-) TimerEvent: {}
+[3.323141] (-) TimerEvent: {}
+[3.423939] (-) TimerEvent: {}
+[3.524651] (-) TimerEvent: {}
+[3.625317] (-) TimerEvent: {}
+[3.726003] (-) TimerEvent: {}
+[3.826649] (-) TimerEvent: {}
+[3.927338] (-) TimerEvent: {}
+[4.028011] (-) TimerEvent: {}
+[4.128844] (-) TimerEvent: {}
+[4.229519] (-) TimerEvent: {}
+[4.285720] (hardware_interface_py) StdoutLine: {'line': b'running develop\n'}
+[4.329721] (-) TimerEvent: {}
+[4.430495] (-) TimerEvent: {}
+[4.531162] (-) TimerEvent: {}
+[4.631892] (-) TimerEvent: {}
+[4.732596] (-) TimerEvent: {}
+[4.833270] (-) TimerEvent: {}
+[4.933914] (-) TimerEvent: {}
+[5.034573] (-) TimerEvent: {}
+[5.102790] (hardware_interface_py) StdoutLine: {'line': b'running egg_info\n'}
+[5.103490] (hardware_interface_py) StdoutLine: {'line': b'writing hardware_interface_py.egg-info/PKG-INFO\n'}
+[5.104704] (hardware_interface_py) StdoutLine: {'line': b'writing dependency_links to hardware_interface_py.egg-info/dependency_links.txt\n'}
+[5.105687] (hardware_interface_py) StdoutLine: {'line': b'writing entry points to hardware_interface_py.egg-info/entry_points.txt\n'}
+[5.106648] (hardware_interface_py) StdoutLine: {'line': b'writing requirements to hardware_interface_py.egg-info/requires.txt\n'}
+[5.107627] (hardware_interface_py) StdoutLine: {'line': b'writing top-level names to hardware_interface_py.egg-info/top_level.txt\n'}
+[5.115839] (hardware_interface_py) StdoutLine: {'line': b"reading manifest file 'hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[5.122026] (hardware_interface_py) StdoutLine: {'line': b"writing manifest file 'hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[5.127626] (hardware_interface_py) StdoutLine: {'line': b'running build_ext\n'}
+[5.128449] (hardware_interface_py) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware-interface-py.egg-link (link to .)\n'}
+[5.132483] (hardware_interface_py) StdoutLine: {'line': b'Installing buzzer script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[5.133735] (hardware_interface_py) StdoutLine: {'line': b'Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[5.134683] (-) TimerEvent: {}
+[5.135758] (hardware_interface_py) StdoutLine: {'line': b'Installing i2c script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[5.136964] (hardware_interface_py) StdoutLine: {'line': b'\n'}
+[5.137678] (hardware_interface_py) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py\n'}
+[5.138114] (hardware_interface_py) StdoutLine: {'line': b'running symlink_data\n'}
+[5.234944] (-) TimerEvent: {}
+[5.277231] (hardware_interface_py) CommandEnded: {'returncode': 0}
+[5.335069] (-) TimerEvent: {}
+[5.365276] (hardware_interface_py) JobEnded: {'identifier': 'hardware_interface_py', 'rc': 0}
+[5.368546] (-) EventReactorShutdown: {}

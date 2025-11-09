@@ -1,1 +1,1 @@
-cv_bridge:hardware_interface:opencv-python:rclpy:sensor_msgs:smbus2
+cv_bridge:hardware_interface:opencv-python:rclpy:sensor_msgs:smbus2:std_msgs
