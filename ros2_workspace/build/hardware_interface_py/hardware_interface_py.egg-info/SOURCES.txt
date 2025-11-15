@@ -8,6 +8,8 @@ setup.py
 ../../build/hardware_interface_py/hardware_interface_py.egg-info/requires.txt
 ../../build/hardware_interface_py/hardware_interface_py.egg-info/top_level.txt
 ../../build/hardware_interface_py/hardware_interface_py.egg-info/zip-safe
+config/accel_data.npy
+config/gyro_data.npy
 hardware_interface_py/__init__.py
 hardware_interface_py/buzzer.py
 hardware_interface_py/camera.py

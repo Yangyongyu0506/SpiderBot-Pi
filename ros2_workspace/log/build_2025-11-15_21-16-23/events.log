@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001833] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.002080] (-) JobUnselected: {'identifier': 'hardware_interface_py'}
+[0.002355] (-) JobUnselected: {'identifier': 'visiontools_py'}
+[0.003342] (sensor_debug) JobQueued: {'identifier': 'sensor_debug', 'dependencies': OrderedDict()}
+[0.004031] (sensor_debug) JobStarted: {'identifier': 'sensor_debug'}
+[0.098749] (-) TimerEvent: {}
+[0.199399] (-) TimerEvent: {}
+[0.300159] (-) TimerEvent: {}
+[0.401034] (-) TimerEvent: {}
+[0.501802] (-) TimerEvent: {}
+[0.602450] (-) TimerEvent: {}
+[0.703140] (-) TimerEvent: {}
+[0.803888] (-) TimerEvent: {}
+[0.904554] (-) TimerEvent: {}
+[1.005213] (-) TimerEvent: {}
+[1.105942] (-) TimerEvent: {}
+[1.206920] (-) TimerEvent: {}
+[1.307936] (-) TimerEvent: {}
+[1.408826] (-) TimerEvent: {}
+[1.509616] (-) TimerEvent: {}
+[1.610287] (-) TimerEvent: {}
+[1.710942] (-) TimerEvent: {}
+[1.811602] (-) TimerEvent: {}
+[1.912352] (-) TimerEvent: {}
+[2.013001] (-) TimerEvent: {}
+[2.113656] (-) TimerEvent: {}
+[2.214313] (-) TimerEvent: {}
+[2.314971] (-) TimerEvent: {}
+[2.415645] (-) TimerEvent: {}
+[2.516314] (-) TimerEvent: {}
+[2.617005] (-) TimerEvent: {}
+[2.717712] (-) TimerEvent: {}
+[2.818562] (-) TimerEvent: {}
+[2.919380] (-) TimerEvent: {}
+[3.020567] (-) TimerEvent: {}
+[3.121846] (-) TimerEvent: {}
+[3.156487] (sensor_debug) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 64623 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot/ros2_workspace/src', 'TERM_PROGRAM_VERSION': '1.106.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2e2bdc44-5d12-4dc0-8bc8-b01d2b06cae8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/cli/servers/Stable-ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-14dd48eb82.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug', 'SSH_CONNECTION': '100.69.168.86 64623 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.222040] (-) TimerEvent: {}
+[3.322826] (-) TimerEvent: {}
+[3.423567] (-) TimerEvent: {}
+[3.524356] (-) TimerEvent: {}
+[3.625110] (-) TimerEvent: {}
+[3.725767] (-) TimerEvent: {}
+[3.826566] (-) TimerEvent: {}
+[3.927235] (-) TimerEvent: {}
+[4.027942] (-) TimerEvent: {}
+[4.128670] (-) TimerEvent: {}
+[4.229652] (-) TimerEvent: {}
+[4.330339] (-) TimerEvent: {}
+[4.425386] (sensor_debug) StdoutLine: {'line': b'running develop\n'}
+[4.430532] (-) TimerEvent: {}
+[4.531329] (-) TimerEvent: {}
+[4.632045] (-) TimerEvent: {}
+[4.732821] (-) TimerEvent: {}
+[4.833642] (-) TimerEvent: {}
+[4.934313] (-) TimerEvent: {}
+[5.035001] (-) TimerEvent: {}
+[5.135681] (-) TimerEvent: {}
+[5.236334] (-) TimerEvent: {}
+[5.270981] (sensor_debug) StdoutLine: {'line': b'running egg_info\n'}
+[5.271927] (sensor_debug) StdoutLine: {'line': b'writing sensor_debug.egg-info/PKG-INFO\n'}
+[5.272787] (sensor_debug) StdoutLine: {'line': b'writing dependency_links to sensor_debug.egg-info/dependency_links.txt\n'}
+[5.277719] (sensor_debug) StdoutLine: {'line': b'writing entry points to sensor_debug.egg-info/entry_points.txt\n'}
+[5.278559] (sensor_debug) StdoutLine: {'line': b'writing requirements to sensor_debug.egg-info/requires.txt\n'}
+[5.279102] (sensor_debug) StdoutLine: {'line': b'writing top-level names to sensor_debug.egg-info/top_level.txt\n'}
+[5.284438] (sensor_debug) StdoutLine: {'line': b"reading manifest file 'sensor_debug.egg-info/SOURCES.txt'\n"}
+[5.288369] (sensor_debug) StdoutLine: {'line': b"writing manifest file 'sensor_debug.egg-info/SOURCES.txt'\n"}
+[5.293963] (sensor_debug) StdoutLine: {'line': b'running build_ext\n'}
+[5.294738] (sensor_debug) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages/sensor-debug.egg-link (link to .)\n'}
+[5.298484] (sensor_debug) StdoutLine: {'line': b'Installing find_imu_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug\n'}
+[5.299500] (sensor_debug) StdoutLine: {'line': b'Installing find_temp_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug\n'}
+[5.300741] (sensor_debug) StdoutLine: {'line': b'\n'}
+[5.301385] (sensor_debug) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug\n'}
+[5.301793] (sensor_debug) StdoutLine: {'line': b'running symlink_data\n'}
+[5.336645] (-) TimerEvent: {}
+[5.433417] (sensor_debug) CommandEnded: {'returncode': 0}
+[5.436669] (-) TimerEvent: {}
+[5.517806] (sensor_debug) JobEnded: {'identifier': 'sensor_debug', 'rc': 0}
+[5.522003] (-) EventReactorShutdown: {}

@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+from glob import glob
 
 package_name = 'hardware_interface_py'
 
@@ -10,6 +11,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (f'share/{package_name}/config', glob('config/*')), # include configurations
+        (f'share/{package_name}/launch', glob('launch/*')), # include launch files
     ],
     install_requires=['setuptools'],
     zip_safe=True,

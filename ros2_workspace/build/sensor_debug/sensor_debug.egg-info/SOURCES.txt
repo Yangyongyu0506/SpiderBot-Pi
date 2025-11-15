@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/sensor_debug
+sensor_debug/__init__.py
+sensor_debug/find_imu_var.py
+sensor_debug/find_temp_var.py
+sensor_debug.egg-info/PKG-INFO
+sensor_debug.egg-info/SOURCES.txt
+sensor_debug.egg-info/dependency_links.txt
+sensor_debug.egg-info/entry_points.txt
+sensor_debug.egg-info/requires.txt
+sensor_debug.egg-info/top_level.txt
+sensor_debug.egg-info/zip-safe

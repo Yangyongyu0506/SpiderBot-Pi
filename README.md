@@ -25,3 +25,10 @@ If the output shows 77 and 68, it means both the sonar and the imu are OK.
 - Added i2c interface
 - Completed sonar distance measurement interface
 - Completed sonar led interface
+## 2025.11.15
+- Completed imu data reading interface
+- Added imu data covariance loading from config files
+- Added complementary filter for imu data. To enable the filter, run
+```bash
+ros2 run imu_complementary_filter complementary_filter_node 
+```

@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'find_imu_var = sensor_debug.find_imu_var:main'
+            'find_imu_var = sensor_debug.find_imu_var:main',
+            'find_temp_var = sensor_debug.find_temp_var:main',
         ],
     },
 )

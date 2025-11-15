@@ -5,19 +5,25 @@ from std_msgs.msg import ColorRGBA
 from sensor_msgs.msg import Range, Imu, Temperature
 from rclpy.callback_groups import MutuallyExclusiveCallbackGroup
 import numpy as np
+from ament_index_python.packages import get_package_share_directory
 
 class I2CNode(Node):
     def __init__(self):
         super().__init__('i2c_node')
         self.mtxcbgroup = MutuallyExclusiveCallbackGroup()
         self.bus = smbus2.SMBus(1)  # Use I2C bus 1 on Raspberry Pi
+        package_share_directory = get_package_share_directory('hardware_interface_py')
         # peripheral I2C addresses
         self.sonar_address = 0x77  # I2C address for the sonar
         self.imu_address = 0x68    # I2C address for the IMU(MPU6050)
-        # initialize IMU and set the measurement range
+        # initialize Imu and set the measurement range
         self.bus.write_byte_data(self.imu_address, 0x6B, 0)  # Wake up MPU6050
         self.bus.write_byte_data(self.imu_address, 0x1B, 0x00)  # Set gyro range to ±250 °/s
         self.bus.write_byte_data(self.imu_address, 0x1C, 0x00)  # Set accelerometer range to ±2 g
+        # initialize Imu data
+        imudata_dir = package_share_directory + '/config/'
+        self.imu_a_cov = np.load(imudata_dir + 'accel_data.npy').flatten().tolist()
+        self.imu_g_cov = np.load(imudata_dir + 'gyro_data.npy').flatten().tolist()
         # publishers
         self.pub_sonar = self.create_publisher(Range, 'sonar', 10)
         self.pub_imu = self.create_publisher(Imu, 'imu/data_raw', 10)
@@ -77,6 +83,9 @@ class I2CNode(Node):
         imu_msg.angular_velocity.y = gy
         imu_msg.angular_velocity.z = gz
         # Add covariances and variances
+        imu_msg.linear_acceleration_covariance = self.imu_a_cov
+        imu_msg.angular_velocity_covariance = self.imu_g_cov
+        imu_msg.orientation_covariance[0] = -1  # orientation not provided
         
         self.pub_imu.publish(imu_msg)
         self.get_logger().debug(f'IMU data - Accel: ({ax}, {ay}, {az}), Gyro: ({gx}, {gy}, {gz})')
@@ -85,6 +94,9 @@ class I2CNode(Node):
         temp_msg.header.frame_id = 'imu_link'
         temp_msg.temperature = T
         # add variance
+        temp_msg.variance = 0.012317672525951536
+        self.pub_imu_temp.publish(temp_msg)
+        self.get_logger().debug(f'IMU temperature: {T} °C')
 
     def sonar_rgb_r_callback(self, msg):
         r = int(msg.r * 255)

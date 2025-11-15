@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating sensor_debug.egg-info
+writing sensor_debug.egg-info/PKG-INFO
+writing dependency_links to sensor_debug.egg-info/dependency_links.txt
+writing entry points to sensor_debug.egg-info/entry_points.txt
+writing requirements to sensor_debug.egg-info/requires.txt
+writing top-level names to sensor_debug.egg-info/top_level.txt
+writing manifest file 'sensor_debug.egg-info/SOURCES.txt'
+reading manifest file 'sensor_debug.egg-info/SOURCES.txt'
+writing manifest file 'sensor_debug.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages/sensor-debug.egg-link (link to .)
+Installing find_imu_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug
+
+Installed /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug
+running symlink_data
+creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/ament_index
+creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/ament_index/resource_index
+creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/ament_index/resource_index/packages
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/resource/sensor_debug -> /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/ament_index/resource_index/packages
+symbolically linking /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/package.xml -> /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug
