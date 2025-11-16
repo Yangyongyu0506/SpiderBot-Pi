@@ -1,0 +1,12 @@
+launch:
+  - node:
+      pkg: hardware_interface_py
+      exec: i2c
+      name: i2c_node
+      output: screen
+
+  - node:
+      pkg: imu_complementary_filter
+      exec: complementary_filter_node
+      name: imu_filter_node
+      output: screen

@@ -30,6 +30,7 @@ setup(
             'camera = hardware_interface_py.camera:main',
             'buzzer = hardware_interface_py.buzzer:main',
             'i2c = hardware_interface_py.i2c:main',
+            'busservo = hardware_interface_py.busservo:main'
         ],
     },
 )
