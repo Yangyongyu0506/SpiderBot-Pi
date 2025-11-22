@@ -1,0 +1,20 @@
+[2.843s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py': AMENT_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface LD_LIBRARY_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build --no-deps symlink_data
+[4.098s] running develop
+[4.929s] running egg_info
+[4.930s] writing hardware_interface_py.egg-info/PKG-INFO
+[4.931s] writing dependency_links to hardware_interface_py.egg-info/dependency_links.txt
+[4.932s] writing entry points to hardware_interface_py.egg-info/entry_points.txt
+[4.933s] writing requirements to hardware_interface_py.egg-info/requires.txt
+[4.934s] writing top-level names to hardware_interface_py.egg-info/top_level.txt
+[4.942s] reading manifest file 'hardware_interface_py.egg-info/SOURCES.txt'
+[4.947s] writing manifest file 'hardware_interface_py.egg-info/SOURCES.txt'
+[4.953s] running build_ext
+[4.954s] Creating /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware-interface-py.egg-link (link to .)
+[4.958s] Installing busservo script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+[4.959s] Installing buzzer script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+[4.960s] Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+[4.961s] Installing i2c script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py
+[4.962s] 
+[4.962s] Installed /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py
+[4.963s] running symlink_data
+[5.105s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py' returned '0': AMENT_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface LD_LIBRARY_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build --no-deps symlink_data

@@ -3,14 +3,13 @@ from rclpy.node import Node
 import smbus2
 from std_msgs.msg import ColorRGBA
 from sensor_msgs.msg import Range, Imu, Temperature
-from rclpy.callback_groups import MutuallyExclusiveCallbackGroup
+from rclpy.executors import SingleThreadedExecutor
 import numpy as np
 from ament_index_python.packages import get_package_share_directory
 
 class I2CNode(Node):
     def __init__(self):
         super().__init__('i2c_node')
-        self.mtxcbgroup = MutuallyExclusiveCallbackGroup()
         self.bus = smbus2.SMBus(1)  # Use I2C bus 1 on Raspberry Pi
         package_share_directory = get_package_share_directory('hardware_interface_py')
         # peripheral I2C addresses
@@ -29,11 +28,11 @@ class I2CNode(Node):
         self.pub_imu = self.create_publisher(Imu, 'imu/data_raw', 10)
         self.pub_imu_temp = self.create_publisher(Temperature, 'imu/temperature', 10)
         # subscribers
-        self.sub_sonar_rgb_r = self.create_subscription(ColorRGBA, 'sonar_rgb_r', self.sonar_rgb_r_callback, 10, callback_group=self.mtxcbgroup)
-        self.sub_sonar_rgb_l = self.create_subscription(ColorRGBA, 'sonar_rgb_l', self.sonar_rgb_l_callback, 10, callback_group=self.mtxcbgroup)
+        self.sub_sonar_rgb_r = self.create_subscription(ColorRGBA, 'sonar_rgb_r', self.sonar_rgb_r_callback, 10)
+        self.sub_sonar_rgb_l = self.create_subscription(ColorRGBA, 'sonar_rgb_l', self.sonar_rgb_l_callback, 10)
         # timers
-        self.timer_sonar = self.create_timer(0.05, self.timer_sonar_callback, callback_group=self.mtxcbgroup)
-        self.timer_imu = self.create_timer(0.02, self.timer_imu_callback, callback_group=self.mtxcbgroup)
+        self.timer_sonar = self.create_timer(0.05, self.timer_sonar_callback)
+        self.timer_imu = self.create_timer(0.02, self.timer_imu_callback)
 
         self.get_logger().info('I2C node started.')
 
@@ -123,6 +122,9 @@ class I2CNode(Node):
 def main():
     rclpy.init()
     i2c_node = I2CNode()
-    rclpy.spin(i2c_node)
+    executor = SingleThreadedExecutor()
+    executor.add_node(i2c_node)
+    executor.spin()
+    executor.remove_node(i2c_node)
     i2c_node.destroy_node()
     rclpy.shutdown()

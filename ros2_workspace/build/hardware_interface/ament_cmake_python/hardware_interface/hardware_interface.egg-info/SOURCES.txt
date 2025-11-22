@@ -4,3 +4,5 @@ hardware_interface.egg-info/PKG-INFO
 hardware_interface.egg-info/SOURCES.txt
 hardware_interface.egg-info/dependency_links.txt
 hardware_interface.egg-info/top_level.txt
+hardware_interface/msg/__init__.py
+hardware_interface/msg/_buzzer_duty.py

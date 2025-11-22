@@ -35,3 +35,13 @@ ros2 run imu_complementary_filter complementary_filter_node
 - Added temp data covariance
 ## 2025.11.16
 - Added imu launch file
+## 2025.11.22
+- Addressed the issue of busservos. The index are shown below:
+    - Leg 1: 1,2,3
+    - Leg 2: 4,5,6
+    - Leg 3: 7,8,9
+    - Leg 4: 10,11,12
+    - Leg 5: 13,14,15
+    - Leg 6: 16,17,18
+    - Arm: 21, 22, 23, 24
+    - Clamp: 25

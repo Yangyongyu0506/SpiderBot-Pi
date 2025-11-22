@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.002181] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict()}
+[0.003038] (sensor_debug) JobQueued: {'identifier': 'sensor_debug', 'dependencies': OrderedDict()}
+[0.003723] (visiontools_py) JobQueued: {'identifier': 'visiontools_py', 'dependencies': OrderedDict()}
+[0.003982] (hardware_interface_py) JobQueued: {'identifier': 'hardware_interface_py', 'dependencies': OrderedDict([('hardware_interface', '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface')])}
+[0.004370] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.058687] (sensor_debug) JobStarted: {'identifier': 'sensor_debug'}
+[0.092213] (visiontools_py) JobStarted: {'identifier': 'visiontools_py'}
+[0.099586] (-) TimerEvent: {}
+[0.124930] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.133338] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 57501 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14dd48eb82.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 57501 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199791] (-) TimerEvent: {}
+[0.301309] (-) TimerEvent: {}
+[0.402280] (-) TimerEvent: {}
+[0.503166] (-) TimerEvent: {}
+[0.604094] (-) TimerEvent: {}
+[0.705111] (-) TimerEvent: {}
+[0.805926] (-) TimerEvent: {}
+[0.908316] (-) TimerEvent: {}
+[1.009159] (-) TimerEvent: {}
+[1.109984] (-) TimerEvent: {}
+[1.210759] (-) TimerEvent: {}
+[1.311471] (-) TimerEvent: {}
+[1.412301] (-) TimerEvent: {}
+[1.513052] (-) TimerEvent: {}
+[1.613995] (-) TimerEvent: {}
+[1.694295] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.695241] (hardware_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.695791] (hardware_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.696230] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.696549] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.696890] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.697303] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.714211] (-) TimerEvent: {}
+[1.776575] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.814376] (-) TimerEvent: {}
+[1.915253] (-) TimerEvent: {}
+[2.016108] (-) TimerEvent: {}
+[2.026431] (hardware_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.038975] (hardware_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.116277] (-) TimerEvent: {}
+[2.217668] (-) TimerEvent: {}
+[2.318514] (-) TimerEvent: {}
+[2.419376] (-) TimerEvent: {}
+[2.520290] (-) TimerEvent: {}
+[2.621166] (-) TimerEvent: {}
+[2.722283] (-) TimerEvent: {}
+[2.823027] (-) TimerEvent: {}
+[2.923836] (-) TimerEvent: {}
+[3.024775] (-) TimerEvent: {}
+[3.124893] (hardware_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.127889] (-) TimerEvent: {}
+[3.229162] (-) TimerEvent: {}
+[3.333519] (-) TimerEvent: {}
+[3.434335] (-) TimerEvent: {}
+[3.535441] (-) TimerEvent: {}
+[3.565667] (hardware_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.635621] (-) TimerEvent: {}
+[3.741470] (-) TimerEvent: {}
+[3.808112] (hardware_interface) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.826777] (hardware_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.841640] (-) TimerEvent: {}
+[3.943938] (-) TimerEvent: {}
+[4.045976] (-) TimerEvent: {}
+[4.147782] (-) TimerEvent: {}
+[4.249896] (-) TimerEvent: {}
+[4.352736] (-) TimerEvent: {}
+[4.454879] (-) TimerEvent: {}
+[4.557358] (-) TimerEvent: {}
+[4.659517] (-) TimerEvent: {}
+[4.760617] (-) TimerEvent: {}
+[4.861591] (-) TimerEvent: {}
+[4.964747] (-) TimerEvent: {}
+[5.069811] (-) TimerEvent: {}
+[5.172242] (-) TimerEvent: {}
+[5.277927] (-) TimerEvent: {}
+[5.380555] (-) TimerEvent: {}
+[5.431898] (visiontools_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 57501 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot', 'TERM_PROGRAM_VERSION': '1.106.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-14dd48eb82.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py', 'SSH_CONNECTION': '100.69.168.86 57501 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[5.459174] (sensor_debug) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 57501 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot', 'TERM_PROGRAM_VERSION': '1.106.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-14dd48eb82.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug', 'SSH_CONNECTION': '100.69.168.86 57501 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[5.481237] (-) TimerEvent: {}
+[5.547585] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.581405] (-) TimerEvent: {}
+[5.682291] (-) TimerEvent: {}
+[5.789481] (-) TimerEvent: {}
+[5.891884] (-) TimerEvent: {}
+[5.993621] (-) TimerEvent: {}
+[6.094555] (-) TimerEvent: {}
+[6.196198] (-) TimerEvent: {}
+[6.297084] (-) TimerEvent: {}
+[6.398009] (-) TimerEvent: {}
+[6.499736] (-) TimerEvent: {}
+[6.602031] (-) TimerEvent: {}
+[6.704235] (-) TimerEvent: {}
+[6.807456] (-) TimerEvent: {}
+[6.909392] (-) TimerEvent: {}
+[7.012132] (-) TimerEvent: {}
+[7.113383] (-) TimerEvent: {}
+[7.204127] (visiontools_py) StdoutLine: {'line': b'running develop\n'}
+[7.213514] (-) TimerEvent: {}
+[7.225488] (sensor_debug) StdoutLine: {'line': b'running develop\n'}
+[7.320682] (-) TimerEvent: {}
+[7.422290] (-) TimerEvent: {}
+[7.450043] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.522736] (-) TimerEvent: {}
+[7.624003] (-) TimerEvent: {}
+[7.726985] (-) TimerEvent: {}
+[7.831403] (-) TimerEvent: {}
+[7.933644] (-) TimerEvent: {}
+[8.034586] (-) TimerEvent: {}
+[8.136016] (-) TimerEvent: {}
+[8.186799] (hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.236224] (-) TimerEvent: {}
+[8.334183] (hardware_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.336414] (-) TimerEvent: {}
+[8.438795] (-) TimerEvent: {}
+[8.459752] (sensor_debug) StdoutLine: {'line': b'running egg_info\n'}
+[8.461591] (sensor_debug) StdoutLine: {'line': b'writing sensor_debug.egg-info/PKG-INFO\n'}
+[8.462284] (sensor_debug) StdoutLine: {'line': b'writing dependency_links to sensor_debug.egg-info/dependency_links.txt\n'}
+[8.463172] (sensor_debug) StdoutLine: {'line': b'writing entry points to sensor_debug.egg-info/entry_points.txt\n'}
+[8.469201] (sensor_debug) StdoutLine: {'line': b'writing requirements to sensor_debug.egg-info/requires.txt\n'}
+[8.470004] (sensor_debug) StdoutLine: {'line': b'writing top-level names to sensor_debug.egg-info/top_level.txt\n'}
+[8.474332] (sensor_debug) StdoutLine: {'line': b"reading manifest file 'sensor_debug.egg-info/SOURCES.txt'\n"}
+[8.479646] (sensor_debug) StdoutLine: {'line': b"writing manifest file 'sensor_debug.egg-info/SOURCES.txt'\n"}
+[8.484349] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.489393] (visiontools_py) StdoutLine: {'line': b'running egg_info\n'}
+[8.492369] (visiontools_py) StdoutLine: {'line': b'writing visiontools_py.egg-info/PKG-INFO\n'}
+[8.497779] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.512508] (hardware_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.517768] (visiontools_py) StdoutLine: {'line': b'writing dependency_links to visiontools_py.egg-info/dependency_links.txt\n'}
+[8.522935] (visiontools_py) StdoutLine: {'line': b'writing entry points to visiontools_py.egg-info/entry_points.txt\n'}
+[8.529679] (visiontools_py) StdoutLine: {'line': b'writing requirements to visiontools_py.egg-info/requires.txt\n'}
+[8.531714] (sensor_debug) StdoutLine: {'line': b'running build_ext\n'}
+[8.533084] (sensor_debug) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages/sensor-debug.egg-link (link to .)\n'}
+[8.544487] (-) TimerEvent: {}
+[8.548173] (visiontools_py) StdoutLine: {'line': b'writing top-level names to visiontools_py.egg-info/top_level.txt\n'}
+[8.554399] (sensor_debug) StdoutLine: {'line': b'Installing find_imu_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug\n'}
+[8.560099] (sensor_debug) StdoutLine: {'line': b'Installing find_temp_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug\n'}
+[8.568572] (sensor_debug) StdoutLine: {'line': b'\n'}
+[8.576034] (sensor_debug) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug\n'}
+[8.579538] (sensor_debug) StdoutLine: {'line': b'running symlink_data\n'}
+[8.581421] (visiontools_py) StdoutLine: {'line': b"reading manifest file 'visiontools_py.egg-info/SOURCES.txt'\n"}
+[8.582756] (visiontools_py) StdoutLine: {'line': b"writing manifest file 'visiontools_py.egg-info/SOURCES.txt'\n"}
+[8.584071] (visiontools_py) StdoutLine: {'line': b'running build_ext\n'}
+[8.585396] (visiontools_py) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)\n'}
+[8.587016] (visiontools_py) StdoutLine: {'line': b'Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py\n'}
+[8.588253] (visiontools_py) StdoutLine: {'line': b'Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py\n'}
+[8.589848] (visiontools_py) StdoutLine: {'line': b'\n'}
+[8.590873] (visiontools_py) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py\n'}
+[8.591973] (visiontools_py) StdoutLine: {'line': b'running symlink_data\n'}
+[8.644925] (-) TimerEvent: {}
+[8.697291] (hardware_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.722435] (sensor_debug) CommandEnded: {'returncode': 0}
+[8.745434] (-) TimerEvent: {}
+[8.836643] (sensor_debug) JobEnded: {'identifier': 'sensor_debug', 'rc': 0}
+[8.844658] (visiontools_py) CommandEnded: {'returncode': 0}
+[8.846810] (-) TimerEvent: {}
+[8.860784] (hardware_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.863379] (hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.868478] (hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.871583] (hardware_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.886214] (hardware_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.887345] (hardware_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.889630] (hardware_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.900467] (visiontools_py) JobEnded: {'identifier': 'visiontools_py', 'rc': 0}
+[8.917182] (hardware_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.946989] (-) TimerEvent: {}
+[9.047696] (-) TimerEvent: {}
+[9.148568] (-) TimerEvent: {}
+[9.249400] (-) TimerEvent: {}
+[9.285537] (hardware_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[9.346470] (hardware_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface\n'}
+[9.349603] (-) TimerEvent: {}
+[9.402275] (hardware_interface) CommandEnded: {'returncode': 0}
+[9.405946] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'build'}
+[9.408856] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', '--', '-j4', '-l4'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 57501 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14dd48eb82.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 57501 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.449778] (-) TimerEvent: {}
+[9.550547] (-) TimerEvent: {}
+[9.647029] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_generator_c\x1b[0m\n'}
+[9.656953] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[9.657826] (-) TimerEvent: {}
+[9.727640] (hardware_interface) StdoutLine: {'line': b'[  3%] Built target hardware_interface__cpp\n'}
+[9.736319] (hardware_interface) StdoutLine: {'line': b'[ 12%] Built target hardware_interface__rosidl_generator_c\n'}
+[9.758126] (-) TimerEvent: {}
+[9.779103] (hardware_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_hardware_interface\n'}
+[9.780696] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.817381] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.848879] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.858334] (-) TimerEvent: {}
+[9.871082] (hardware_interface) StdoutLine: {'line': b'[ 21%] Built target hardware_interface__rosidl_typesupport_cpp\n'}
+[9.890602] (hardware_interface) StdoutLine: {'line': b'[ 27%] Built target camera\n'}
+[9.899340] (hardware_interface) StdoutLine: {'line': b'[ 36%] Built target hardware_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.927387] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_c\x1b[0m\n'}
+[9.936987] (hardware_interface) StdoutLine: {'line': b'[ 45%] Built target hardware_interface__rosidl_typesupport_introspection_c\n'}
+[9.958576] (-) TimerEvent: {}
+[9.972056] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.001134] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.038211] (hardware_interface) StdoutLine: {'line': b'[ 54%] Built target hardware_interface__rosidl_typesupport_c\n'}
+[10.042099] (hardware_interface) StdoutLine: {'line': b'[ 63%] Built target hardware_interface__rosidl_typesupport_introspection_cpp\n'}
+[10.058771] (-) TimerEvent: {}
+[10.077638] (hardware_interface) StdoutLine: {'line': b'[ 72%] Built target hardware_interface__rosidl_typesupport_fastrtps_c\n'}
+[10.159098] (-) TimerEvent: {}
+[10.173765] (hardware_interface) StdoutLine: {'line': b'[ 72%] Built target hardware_interface\n'}
+[10.265480] (-) TimerEvent: {}
+[10.281545] (hardware_interface) StdoutLine: {'line': b'[ 75%] Built target hardware_interface__py\n'}
+[10.335505] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_generator_py\x1b[0m\n'}
+[10.365641] (-) TimerEvent: {}
+[10.407681] (hardware_interface) StdoutLine: {'line': b'[ 81%] Built target hardware_interface__rosidl_generator_py\n'}
+[10.461077] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.465908] (-) TimerEvent: {}
+[10.477094] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.477916] (hardware_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.566079] (-) TimerEvent: {}
+[10.603933] (hardware_interface) StdoutLine: {'line': b'[ 87%] Built target hardware_interface__rosidl_typesupport_c__pyext\n'}
+[10.608703] (hardware_interface) StdoutLine: {'line': b'[ 93%] Built target hardware_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.615989] (hardware_interface) StdoutLine: {'line': b'[100%] Built target hardware_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[10.666305] (-) TimerEvent: {}
+[10.767115] (-) TimerEvent: {}
+[10.867964] (-) TimerEvent: {}
+[10.968733] (-) TimerEvent: {}
+[11.069417] (-) TimerEvent: {}
+[11.170175] (-) TimerEvent: {}
+[11.247514] (hardware_interface) StdoutLine: {'line': b'running egg_info\n'}
+[11.250920] (hardware_interface) StdoutLine: {'line': b'writing hardware_interface.egg-info/PKG-INFO\n'}
+[11.252056] (hardware_interface) StdoutLine: {'line': b'writing dependency_links to hardware_interface.egg-info/dependency_links.txt\n'}
+[11.253110] (hardware_interface) StdoutLine: {'line': b'writing top-level names to hardware_interface.egg-info/top_level.txt\n'}
+[11.263756] (hardware_interface) StdoutLine: {'line': b"reading manifest file 'hardware_interface.egg-info/SOURCES.txt'\n"}
+[11.268660] (hardware_interface) StdoutLine: {'line': b"writing manifest file 'hardware_interface.egg-info/SOURCES.txt'\n"}
+[11.270466] (-) TimerEvent: {}
+[11.371719] (-) TimerEvent: {}
+[11.398398] (hardware_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_hardware_interface_egg\n'}
+[11.444629] (hardware_interface) CommandEnded: {'returncode': 0}
+[11.453694] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'install'}
+[11.471929] (-) TimerEvent: {}
+[11.493684] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yangy'), ('SSH_CLIENT', '100.69.168.86 57501 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/yangy'), ('OLDPWD', '/home/yangy/SpiderBot'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yangy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-14dd48eb82.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface'), ('SSH_CONNECTION', '100.69.168.86 57501 100.82.132.106 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.529578] (hardware_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.531534] (hardware_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.533161] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera\n'}
+[11.534665] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/rosidl_interfaces/hardware_interface\n'}
+[11.537324] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.h\n'}
+[11.538415] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__functions.h\n'}
+[11.539487] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.h\n'}
+[11.540565] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.h\n'}
+[11.541667] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.542807] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.sh\n'}
+[11.543865] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.dsv\n'}
+[11.547000] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_c.h\n'}
+[11.547964] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.550655] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.hpp\n'}
+[11.551727] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__builder.hpp\n'}
+[11.552783] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.hpp\n'}
+[11.553928] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__traits.hpp\n'}
+[11.555000] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.hpp\n'}
+[11.556055] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.559655] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.560676] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.563177] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_c.h\n'}
+[11.564232] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.566664] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.567760] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.sh\n'}
+[11.568895] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.dsv\n'}
+[11.570945] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.571966] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.572404] (-) TimerEvent: {}
+[11.574095] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.574817] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.579935] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/__init__.py\n'}
+[11.581609] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_c.c\n'}
+[11.582197] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.583259] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.584243] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.585347] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.587108] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.588008] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/libhardware_interface__rosidl_generator_py.so\n'}
+[11.589400] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/__init__.py\n'}
+[11.590365] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty.py\n'}
+[11.591409] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty_s.c\n'}
+[11.593080] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.595239] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.596842] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.598457] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.idl\n'}
+[11.599667] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.msg\n'}
+[11.601184] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface\n'}
+[11.602710] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface\n'}
+[11.603819] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh\n'}
+[11.604865] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv\n'}
+[11.605929] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh\n'}
+[11.606968] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv\n'}
+[11.607995] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash\n'}
+[11.609010] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh\n'}
+[11.610039] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh\n'}
+[11.611044] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv\n'}
+[11.611747] (hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv\n'}
+[11.645962] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface\n'}
+[11.647042] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.648165] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.649232] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.650331] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.651471] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.652467] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.653741] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.654974] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake\n'}
+[11.655870] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake\n'}
+[11.656963] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml\n'}
+[11.665313] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_c.so\n'}
+[11.669113] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[11.672574] (-) TimerEvent: {}
+[11.673310] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.676673] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_c.so\n'}
+[11.680212] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_c.so\n'}
+[11.684097] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[11.687005] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_cpp.so\n'}
+[11.772746] (-) TimerEvent: {}
+[11.858456] (hardware_interface) StdoutLine: {'line': b"Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface'...\n"}
+[11.860577] (hardware_interface) StdoutLine: {'line': b"Compiling '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/__init__.py'...\n"}
+[11.862424] (hardware_interface) StdoutLine: {'line': b"Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg'...\n"}
+[11.873079] (-) TimerEvent: {}
+[11.896617] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_py.so\n'}
+[11.900553] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport.cmake\n'}
+[11.901913] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.904030] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.904947] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.908067] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cppExport.cmake\n'}
+[11.909644] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.911241] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.912244] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.914242] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.915148] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport.cmake\n'}
+[11.916267] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.918350] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.919005] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.920694] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport.cmake\n'}
+[11.921358] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.923726] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport.cmake\n'}
+[11.924636] (hardware_interface) StdoutLine: {'line': b'-- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.931612] (hardware_interface) CommandEnded: {'returncode': 0}
+[11.973874] (-) TimerEvent: {}
+[12.034465] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 0}
+[12.038834] (hardware_interface_py) JobStarted: {'identifier': 'hardware_interface_py'}
+[12.074282] (-) TimerEvent: {}
+[12.175068] (-) TimerEvent: {}
+[12.275814] (-) TimerEvent: {}
+[12.376618] (-) TimerEvent: {}
+[12.477352] (-) TimerEvent: {}
+[12.578146] (-) TimerEvent: {}
+[12.678845] (-) TimerEvent: {}
+[12.779529] (-) TimerEvent: {}
+[12.880192] (-) TimerEvent: {}
+[12.980927] (-) TimerEvent: {}
+[13.081693] (-) TimerEvent: {}
+[13.182403] (-) TimerEvent: {}
+[13.283303] (-) TimerEvent: {}
+[13.384373] (-) TimerEvent: {}
+[13.485226] (-) TimerEvent: {}
+[13.586108] (-) TimerEvent: {}
+[13.686830] (-) TimerEvent: {}
+[13.787514] (-) TimerEvent: {}
+[13.888189] (-) TimerEvent: {}
+[13.988895] (-) TimerEvent: {}
+[14.089614] (-) TimerEvent: {}
+[14.190271] (-) TimerEvent: {}
+[14.290977] (-) TimerEvent: {}
+[14.391706] (-) TimerEvent: {}
+[14.492464] (-) TimerEvent: {}
+[14.593210] (-) TimerEvent: {}
+[14.694011] (-) TimerEvent: {}
+[14.794991] (-) TimerEvent: {}
+[14.871143] (hardware_interface_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangy', 'SSH_CLIENT': '100.69.168.86 57501 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangy', 'OLDPWD': '/home/yangy/SpiderBot', 'TERM_PROGRAM_VERSION': '1.106.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-14e9865d-7d91-4496-86f9-4bf09bf0eabc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/yangy/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/yangy/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yangy/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-96d9428ac9dc0ce0.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/yangy/.vscode-server/data/User/workspaceStorage/9df9bbcbb2847065ef1c402e81ab6c9e/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-14dd48eb82.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'SSH_CONNECTION': '100.69.168.86 57501 100.82.132.106 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface'}, 'shell': False}
+[14.895121] (-) TimerEvent: {}
+[14.995839] (-) TimerEvent: {}
+[15.096597] (-) TimerEvent: {}
+[15.197382] (-) TimerEvent: {}
+[15.298119] (-) TimerEvent: {}
+[15.398883] (-) TimerEvent: {}
+[15.499599] (-) TimerEvent: {}
+[15.600269] (-) TimerEvent: {}
+[15.700922] (-) TimerEvent: {}
+[15.801627] (-) TimerEvent: {}
+[15.902527] (-) TimerEvent: {}
+[16.003228] (-) TimerEvent: {}
+[16.103974] (-) TimerEvent: {}
+[16.136381] (hardware_interface_py) StdoutLine: {'line': b'running develop\n'}
+[16.204104] (-) TimerEvent: {}
+[16.304781] (-) TimerEvent: {}
+[16.405501] (-) TimerEvent: {}
+[16.506215] (-) TimerEvent: {}
+[16.606942] (-) TimerEvent: {}
+[16.707689] (-) TimerEvent: {}
+[16.808389] (-) TimerEvent: {}
+[16.909098] (-) TimerEvent: {}
+[16.968059] (hardware_interface_py) StdoutLine: {'line': b'running egg_info\n'}
+[16.968770] (hardware_interface_py) StdoutLine: {'line': b'writing hardware_interface_py.egg-info/PKG-INFO\n'}
+[16.969989] (hardware_interface_py) StdoutLine: {'line': b'writing dependency_links to hardware_interface_py.egg-info/dependency_links.txt\n'}
+[16.971164] (hardware_interface_py) StdoutLine: {'line': b'writing entry points to hardware_interface_py.egg-info/entry_points.txt\n'}
+[16.971976] (hardware_interface_py) StdoutLine: {'line': b'writing requirements to hardware_interface_py.egg-info/requires.txt\n'}
+[16.972571] (hardware_interface_py) StdoutLine: {'line': b'writing top-level names to hardware_interface_py.egg-info/top_level.txt\n'}
+[16.980942] (hardware_interface_py) StdoutLine: {'line': b"reading manifest file 'hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[16.986018] (hardware_interface_py) StdoutLine: {'line': b"writing manifest file 'hardware_interface_py.egg-info/SOURCES.txt'\n"}
+[16.992135] (hardware_interface_py) StdoutLine: {'line': b'running build_ext\n'}
+[16.992958] (hardware_interface_py) StdoutLine: {'line': b'Creating /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages/hardware-interface-py.egg-link (link to .)\n'}
+[16.996846] (hardware_interface_py) StdoutLine: {'line': b'Installing busservo script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[16.997788] (hardware_interface_py) StdoutLine: {'line': b'Installing buzzer script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[16.998638] (hardware_interface_py) StdoutLine: {'line': b'Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[16.999461] (hardware_interface_py) StdoutLine: {'line': b'Installing i2c script to /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/hardware_interface_py\n'}
+[17.000763] (hardware_interface_py) StdoutLine: {'line': b'\n'}
+[17.001385] (hardware_interface_py) StdoutLine: {'line': b'Installed /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py\n'}
+[17.001787] (hardware_interface_py) StdoutLine: {'line': b'running symlink_data\n'}
+[17.009466] (-) TimerEvent: {}
+[17.110825] (-) TimerEvent: {}
+[17.141759] (hardware_interface_py) CommandEnded: {'returncode': 0}
+[17.196372] (hardware_interface_py) JobEnded: {'identifier': 'hardware_interface_py', 'rc': 0}
+[17.200698] (-) EventReactorShutdown: {}

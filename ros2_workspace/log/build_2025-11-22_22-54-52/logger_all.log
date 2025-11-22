@@ -1,0 +1,312 @@
+[0.837s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.837s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff988b75b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff98aa0940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff98aa0940>>)
+[2.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yangy/SpiderBot/ros2_workspace'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extension 'ignore'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extension 'ignore_ament_install'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extensions ['colcon_pkg']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extension 'colcon_pkg'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extensions ['colcon_meta']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extension 'colcon_meta'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface) by extension 'ros'
+[2.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware_interface' with type 'ros.ament_cmake' and name 'hardware_interface'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extensions ['ignore', 'ignore_ament_install']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extension 'ignore'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extension 'ignore_ament_install'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extensions ['colcon_pkg']
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extension 'colcon_pkg'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extensions ['colcon_meta']
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extension 'colcon_meta'
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extensions ['ros']
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware_interface_py) by extension 'ros'
+[2.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware_interface_py' with type 'ros.ament_python' and name 'hardware_interface_py'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extensions ['ignore', 'ignore_ament_install']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extension 'ignore'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extension 'ignore_ament_install'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extensions ['colcon_pkg']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extension 'colcon_pkg'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extensions ['colcon_meta']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extension 'colcon_meta'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extensions ['ros']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_debug) by extension 'ros'
+[2.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_debug' with type 'ros.ament_python' and name 'sensor_debug'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extensions ['ignore', 'ignore_ament_install']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extension 'ignore'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extension 'ignore_ament_install'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extensions ['colcon_pkg']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extension 'colcon_pkg'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extensions ['colcon_meta']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extension 'colcon_meta'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extensions ['ros']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/visiontools_py) by extension 'ros'
+[2.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visiontools_py' with type 'ros.ament_python' and name 'visiontools_py'
+[2.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.606s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[2.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_args' from command line to 'None'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target' from command line to 'None'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.799s] DEBUG:colcon.colcon_core.verb:Building package 'hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface', 'merge_install': False, 'path': '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface', 'symlink_install': True, 'test_result_base': None}
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_args' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_target' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_clean_cache' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_clean_first' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'cmake_force_configure' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'ament_cmake_args' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'catkin_cmake_args' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'sensor_debug' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.802s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_debug' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug', 'merge_install': False, 'path': '/home/yangy/SpiderBot/ros2_workspace/src/sensor_debug', 'symlink_install': True, 'test_result_base': None}
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_target' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'visiontools_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.804s] DEBUG:colcon.colcon_core.verb:Building package 'visiontools_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py', 'merge_install': False, 'path': '/home/yangy/SpiderBot/ros2_workspace/src/visiontools_py', 'symlink_install': True, 'test_result_base': None}
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_args' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_target' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.807s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.807s] DEBUG:colcon.colcon_core.verb:Building package 'hardware_interface_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py', 'merge_install': False, 'path': '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py', 'symlink_install': True, 'test_result_base': None}
+[2.807s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.811s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.812s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface' with build type 'ament_cmake'
+[2.813s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface'
+[2.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.869s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yangy/SpiderBot/ros2_workspace/src/sensor_debug' with build type 'ament_python'
+[2.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_debug', 'ament_prefix_path')
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/ament_prefix_path.ps1'
+[2.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/ament_prefix_path.dsv'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/ament_prefix_path.sh'
+[2.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.902s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yangy/SpiderBot/ros2_workspace/src/visiontools_py' with build type 'ament_python'
+[2.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('visiontools_py', 'ament_prefix_path')
+[2.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/ament_prefix_path.ps1'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/ament_prefix_path.dsv'
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/ament_prefix_path.sh'
+[2.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+[4.483s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yangy/SpiderBot/ros2_workspace/src/sensor_debug'
+[4.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.870s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yangy/SpiderBot/ros2_workspace/src/visiontools_py'
+[5.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data
+[8.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build --no-deps symlink_data
+[11.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_debug', 'pythonpath_develop')
+[11.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/share/sensor_debug/hook/pythonpath_develop.ps1'
+[11.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug' returned '0': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build --no-deps symlink_data
+[11.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/share/sensor_debug/hook/pythonpath_develop.dsv'
+[11.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/share/sensor_debug/hook/pythonpath_develop.sh'
+[11.597s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug' for CMake module files
+[11.601s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug' for CMake config files
+[11.606s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib'
+[11.607s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/bin'
+[11.607s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/pkgconfig/sensor_debug.pc'
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages'
+[11.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_debug', 'pythonpath')
+[11.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/pythonpath.ps1'
+[11.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/pythonpath.dsv'
+[11.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/hook/pythonpath.sh'
+[11.618s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/bin'
+[11.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_debug)
+[11.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/package.ps1'
+[11.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/package.dsv'
+[11.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/package.sh'
+[11.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/package.bash'
+[11.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/sensor_debug/package.zsh'
+[11.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/share/colcon-core/packages/sensor_debug)
+[11.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('visiontools_py', 'pythonpath_develop')
+[11.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/share/visiontools_py/hook/pythonpath_develop.ps1'
+[11.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py' returned '0': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data
+[11.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/share/visiontools_py/hook/pythonpath_develop.dsv'
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/share/visiontools_py/hook/pythonpath_develop.sh'
+[11.665s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py' for CMake module files
+[11.668s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py' for CMake config files
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/bin'
+[11.676s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/pkgconfig/visiontools_py.pc'
+[11.678s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages'
+[11.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('visiontools_py', 'pythonpath')
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/pythonpath.ps1'
+[11.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/pythonpath.dsv'
+[11.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/hook/pythonpath.sh'
+[11.691s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/bin'
+[11.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visiontools_py)
+[11.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/package.ps1'
+[11.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/package.dsv'
+[11.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/package.sh'
+[11.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/package.bash'
+[11.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/visiontools_py/package.zsh'
+[11.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/share/colcon-core/packages/visiontools_py)
+[12.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yangy/SpiderBot/ros2_workspace/src/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface
+[12.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[14.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[14.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[14.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware_interface)
+[14.743s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface' for CMake module files
+[14.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[14.750s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface' for CMake config files
+[14.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'cmake_prefix_path')
+[14.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.ps1'
+[14.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.dsv'
+[14.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.sh'
+[14.767s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib'
+[14.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'ld_library_path_lib')
+[14.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.ps1'
+[14.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.dsv'
+[14.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.sh'
+[14.776s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/bin'
+[14.777s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/pkgconfig/hardware_interface.pc'
+[14.778s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/python3.10/site-packages'
+[14.779s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/bin'
+[14.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.ps1'
+[14.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv'
+[14.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.sh'
+[14.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.bash'
+[14.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.zsh'
+[14.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/colcon-core/packages/hardware_interface)
+[14.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware_interface)
+[14.796s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface' for CMake module files
+[14.801s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface' for CMake config files
+[14.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'cmake_prefix_path')
+[14.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.ps1'
+[14.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.dsv'
+[14.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.sh'
+[14.816s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib'
+[14.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'ld_library_path_lib')
+[14.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.ps1'
+[14.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.dsv'
+[14.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.sh'
+[14.825s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/bin'
+[14.826s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/pkgconfig/hardware_interface.pc'
+[14.827s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/python3.10/site-packages'
+[14.828s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/bin'
+[14.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.ps1'
+[14.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv'
+[14.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.sh'
+[14.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.bash'
+[14.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.zsh'
+[14.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/colcon-core/packages/hardware_interface)
+[14.844s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py' with build type 'ament_python'
+[14.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface_py', 'ament_prefix_path')
+[14.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/ament_prefix_path.ps1'
+[14.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/ament_prefix_path.dsv'
+[14.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/ament_prefix_path.sh'
+[14.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yangy/SpiderBot/ros2_workspace/src/hardware_interface_py'
+[16.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py': AMENT_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface LD_LIBRARY_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build --no-deps symlink_data
+[19.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface_py', 'pythonpath_develop')
+[19.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/share/hardware_interface_py/hook/pythonpath_develop.ps1'
+[19.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py' returned '0': AMENT_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface LD_LIBRARY_PATH=/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/build --no-deps symlink_data
+[19.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/share/hardware_interface_py/hook/pythonpath_develop.dsv'
+[19.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface_py/share/hardware_interface_py/hook/pythonpath_develop.sh'
+[19.964s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py' for CMake module files
+[19.968s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py' for CMake config files
+[19.973s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib'
+[19.973s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/bin'
+[19.974s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/pkgconfig/hardware_interface_py.pc'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/lib/python3.10/site-packages'
+[19.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface_py', 'pythonpath')
+[19.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/pythonpath.ps1'
+[19.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/pythonpath.dsv'
+[19.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/hook/pythonpath.sh'
+[19.987s] Level 1:colcon.colcon_core.environment:checking '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/bin'
+[19.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware_interface_py)
+[19.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/package.ps1'
+[19.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/package.dsv'
+[19.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/package.sh'
+[19.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/package.bash'
+[20.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/hardware_interface_py/package.zsh'
+[20.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py/share/colcon-core/packages/hardware_interface_py)
+[20.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.009s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.040s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.095s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangy/SpiderBot/ros2_workspace/install/local_setup.ps1'
+[20.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangy/SpiderBot/ros2_workspace/install/_local_setup_util_ps1.py'
+[20.119s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangy/SpiderBot/ros2_workspace/install/setup.ps1'
+[20.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangy/SpiderBot/ros2_workspace/install/local_setup.sh'
+[20.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yangy/SpiderBot/ros2_workspace/install/_local_setup_util_sh.py'
+[20.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangy/SpiderBot/ros2_workspace/install/setup.sh'
+[20.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangy/SpiderBot/ros2_workspace/install/local_setup.bash'
+[20.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangy/SpiderBot/ros2_workspace/install/setup.bash'
+[20.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yangy/SpiderBot/ros2_workspace/install/local_setup.zsh'
+[20.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yangy/SpiderBot/ros2_workspace/install/setup.zsh'
