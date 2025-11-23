@@ -1,0 +1,122 @@
+[0.151s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[2.203s] [  3%] Built target hardware_interface__cpp
+[2.207s] [ 12%] Built target hardware_interface__rosidl_generator_c
+[2.213s] [ 12%] Built target ament_cmake_python_symlink_hardware_interface
+[2.213s] [ 18%] Built target camera
+[2.214s] [ 27%] Built target hardware_interface__rosidl_typesupport_cpp
+[2.214s] [ 36%] Built target hardware_interface__rosidl_typesupport_fastrtps_cpp
+[2.215s] [ 45%] Built target hardware_interface__rosidl_typesupport_introspection_c
+[2.216s] [ 54%] Built target hardware_interface__rosidl_typesupport_c
+[2.217s] [ 63%] Built target hardware_interface__rosidl_typesupport_introspection_cpp
+[2.217s] [ 72%] Built target hardware_interface__rosidl_typesupport_fastrtps_c
+[2.218s] [ 72%] Built target hardware_interface
+[2.218s] [ 75%] Built target hardware_interface__py
+[2.219s] [ 81%] Built target hardware_interface__rosidl_generator_py
+[2.219s] [ 87%] Built target hardware_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.220s] [ 93%] Built target hardware_interface__rosidl_typesupport_introspection_c__pyext
+[2.220s] [100%] Built target hardware_interface__rosidl_typesupport_c__pyext
+[2.599s] running egg_info
+[2.605s] writing hardware_interface.egg-info/PKG-INFO
+[2.606s] writing dependency_links to hardware_interface.egg-info/dependency_links.txt
+[2.607s] writing top-level names to hardware_interface.egg-info/top_level.txt
+[2.625s] reading manifest file 'hardware_interface.egg-info/SOURCES.txt'
+[2.629s] writing manifest file 'hardware_interface.egg-info/SOURCES.txt'
+[2.782s] [100%] Built target ament_cmake_python_build_hardware_interface_egg
+[3.649s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface -- -j4 -l4
+[3.699s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface
+[3.747s] -- Install configuration: ""
+[3.755s] -- Execute custom install script
+[3.758s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/hardware_interface/camera
+[3.761s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/rosidl_interfaces/hardware_interface
+[3.776s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.h
+[3.789s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__functions.h
+[3.799s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.h
+[3.800s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.h
+[3.800s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_c__visibility_control.h
+[3.801s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[3.806s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[3.809s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_c.h
+[3.812s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.816s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/buzzer_duty.hpp
+[3.820s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__builder.hpp
+[3.823s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__struct.hpp
+[3.826s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__traits.hpp
+[3.829s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__type_support.hpp
+[3.832s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.835s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_fastrtps_cpp.hpp
+[3.837s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.841s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_c.h
+[3.845s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.849s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/include/hardware_interface/hardware_interface/msg/detail/buzzer_duty__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.sh
+[3.857s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/pythonpath.dsv
+[3.860s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[3.863s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.868s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.874s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface-0.0.0-py3.10.egg-info/top_level.txt
+[3.880s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/__init__.py
+[3.886s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_c.c
+[3.891s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.895s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/_hardware_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.903s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.907s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.912s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.916s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/libhardware_interface__rosidl_generator_py.so
+[3.921s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/__init__.py
+[3.928s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty.py
+[3.932s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg/_buzzer_duty_s.c
+[3.938s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.942s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.946s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/hardware_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.949s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.idl
+[3.951s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/msg/BuzzerDuty.msg
+[3.954s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[3.957s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[3.960s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[3.963s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[3.966s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.sh
+[3.968s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[3.971s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.bash
+[3.974s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.sh
+[3.976s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[3.979s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[3.983s] -- Symlinking: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.dsv
+[4.030s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[4.033s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake-extras.cmake
+[4.035s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.038s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.041s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.043s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.046s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.050s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.052s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[4.055s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[4.057s] -- Up-to-date symlink: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/package.xml
+[4.069s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_c.so
+[4.074s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_c.so
+[4.078s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.083s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_c.so
+[4.086s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_c.so
+[4.090s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_introspection_cpp.so
+[4.095s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_typesupport_cpp.so
+[4.372s] Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface'...
+[4.378s] Listing '/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/local/lib/python3.10/dist-packages/hardware_interface/msg'...
+[4.390s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/lib/libhardware_interface__rosidl_generator_py.so
+[4.398s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport.cmake
+[4.401s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cExport-noconfig.cmake
+[4.408s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.411s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.417s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_cppExport.cmake
+[4.419s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.421s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.425s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.427s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.433s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport.cmake
+[4.437s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.442s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.446s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.449s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport.cmake
+[4.453s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/hardware_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.455s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport.cmake
+[4.464s] -- Up-to-date: /home/yangy/SpiderBot/ros2_workspace/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.467s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug:/home/yangy/SpiderBot/ros2_workspace/install/hardware_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/yangy/SpiderBot/ros2_workspace/build/hardware_interface

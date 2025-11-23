@@ -1,0 +1,18 @@
+[6.504s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data
+[8.222s] running develop
+[9.495s] running egg_info
+[9.498s] writing visiontools_py.egg-info/PKG-INFO
+[9.501s] writing dependency_links to visiontools_py.egg-info/dependency_links.txt
+[9.509s] writing entry points to visiontools_py.egg-info/entry_points.txt
+[9.513s] writing requirements to visiontools_py.egg-info/requires.txt
+[9.516s] writing top-level names to visiontools_py.egg-info/top_level.txt
+[9.520s] reading manifest file 'visiontools_py.egg-info/SOURCES.txt'
+[9.523s] writing manifest file 'visiontools_py.egg-info/SOURCES.txt'
+[9.529s] running build_ext
+[9.532s] Creating /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages/visiontools-py.egg-link (link to .)
+[9.538s] Installing camera script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+[9.544s] Installing camera_info script to /home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/visiontools_py
+[9.556s] 
+[9.562s] Installed /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py
+[9.566s] running symlink_data
+[9.759s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py' returned '0': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/visiontools_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/visiontools_py/build --no-deps symlink_data

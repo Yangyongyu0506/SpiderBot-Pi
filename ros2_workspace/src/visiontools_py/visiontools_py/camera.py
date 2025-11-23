@@ -38,7 +38,7 @@ class CameraWithInfoNode(Node):
             image_msg.header.stamp = timestamp
             self.pub_info.publish(camera_info_msg)
             self.pub_image.publish(image_msg)
-            self.get_logger().info('Published CameraInfo message and Image message.')
+            self.get_logger().debug('Published CameraInfo message and Image message.')
         else:
             self.get_logger().error('Failed to capture image')
     def destroy_node(self):

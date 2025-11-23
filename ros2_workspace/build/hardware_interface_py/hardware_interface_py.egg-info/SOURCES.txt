@@ -22,5 +22,6 @@ hardware_interface_py.egg-info/entry_points.txt
 hardware_interface_py.egg-info/requires.txt
 hardware_interface_py.egg-info/top_level.txt
 hardware_interface_py.egg-info/zip-safe
+launch/hardware_launch.yaml
 launch/imu_launch.yaml
 resource/hardware_interface_py

@@ -1,0 +1,18 @@
+[6.527s] Invoking command in '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build --no-deps symlink_data
+[8.240s] running develop
+[9.608s] running egg_info
+[9.611s] writing sensor_debug.egg-info/PKG-INFO
+[9.617s] writing dependency_links to sensor_debug.egg-info/dependency_links.txt
+[9.621s] writing entry points to sensor_debug.egg-info/entry_points.txt
+[9.626s] writing requirements to sensor_debug.egg-info/requires.txt
+[9.632s] writing top-level names to sensor_debug.egg-info/top_level.txt
+[9.636s] reading manifest file 'sensor_debug.egg-info/SOURCES.txt'
+[9.643s] writing manifest file 'sensor_debug.egg-info/SOURCES.txt'
+[9.653s] running build_ext
+[9.661s] Creating /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages/sensor-debug.egg-link (link to .)
+[9.663s] Installing find_imu_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug
+[9.667s] Installing find_temp_var script to /home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/sensor_debug
+[9.670s] 
+[9.672s] Installed /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug
+[9.677s] running symlink_data
+[9.887s] Invoked command in '/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug' returned '0': PYTHONPATH=/home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangy/SpiderBot/ros2_workspace/install/sensor_debug/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yangy/SpiderBot/ros2_workspace/build/sensor_debug/build --no-deps symlink_data
